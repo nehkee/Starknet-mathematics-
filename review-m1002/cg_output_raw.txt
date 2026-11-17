@@ -1,0 +1,130 @@
+  HIT(A-window) S = 0 2 4
+  HIT(F-window) S = 0 2 4
+  HIT(A-window) S = 1 3 5
+  HIT(F-window) S = 1 3 5
+p=2147483647 ext=2 e=6 h=3 c=0 threshold(4h+c-2)=10 subsets=20 hitsA=2 hitsF=2
+p=2147483647 ext=2 e=7 h=3 c=1 threshold(4h+c-2)=11 subsets=35 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=8 h=3 c=2 threshold(4h+c-2)=12 subsets=56 hitsA=0 hitsF=0
+  HIT(A-window) S = 0 2 4 6
+  HIT(F-window) S = 0 2 4 6
+  HIT(A-window) S = 1 3 5 7
+  HIT(F-window) S = 1 3 5 7
+p=2147483647 ext=2 e=8 h=4 c=0 threshold(4h+c-2)=14 subsets=70 hitsA=2 hitsF=2
+p=2147483647 ext=2 e=9 h=4 c=1 threshold(4h+c-2)=15 subsets=126 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=11 h=4 c=3 threshold(4h+c-2)=17 subsets=330 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=11 h=5 c=1 threshold(4h+c-2)=19 subsets=462 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=12 h=5 c=2 threshold(4h+c-2)=20 subsets=792 hitsA=0 hitsF=0
+  HIT(A-window) S = 0 2 4 6 8 10
+  HIT(F-window) S = 0 2 4 6 8 10
+  HIT(A-window) S = 1 3 5 7 9 11
+  HIT(F-window) S = 1 3 5 7 9 11
+p=2147483647 ext=2 e=12 h=6 c=0 threshold(4h+c-2)=22 subsets=924 hitsA=2 hitsF=2
+p=2147483647 ext=2 e=14 h=5 c=4 threshold(4h+c-2)=22 subsets=2002 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=14 h=6 c=2 threshold(4h+c-2)=24 subsets=3003 hitsA=0 hitsF=0
+  HIT(A-window) S = 0 2 4 6 8 10 12
+  HIT(F-window) S = 0 2 4 6 8 10 12
+  HIT(A-window) S = 1 3 5 7 9 11 13
+  HIT(F-window) S = 1 3 5 7 9 11 13
+p=2147483647 ext=2 e=14 h=7 c=0 threshold(4h+c-2)=26 subsets=3432 hitsA=2 hitsF=2
+p=2147483647 ext=2 e=16 h=6 c=4 threshold(4h+c-2)=26 subsets=8008 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=16 h=7 c=2 threshold(4h+c-2)=28 subsets=11440 hitsA=0 hitsF=0
+  HIT(A-window) S = 0 2 4 6 8 10 12 14
+  HIT(F-window) S = 0 2 4 6 8 10 12 14
+  HIT(A-window) S = 1 3 5 7 9 11 13 15
+  HIT(F-window) S = 1 3 5 7 9 11 13 15
+p=2147483647 ext=2 e=16 h=8 c=0 threshold(4h+c-2)=30 subsets=12870 hitsA=2 hitsF=2
+p=2147483647 ext=2 e=18 h=7 c=4 threshold(4h+c-2)=30 subsets=31824 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=18 h=8 c=2 threshold(4h+c-2)=32 subsets=43758 hitsA=0 hitsF=0
+  HIT(A-window) S = 0 2 4 6 8 10 12 14 16
+  HIT(F-window) S = 0 2 4 6 8 10 12 14 16
+  HIT(A-window) S = 1 3 5 7 9 11 13 15 17
+  HIT(F-window) S = 1 3 5 7 9 11 13 15 17
+p=2147483647 ext=2 e=18 h=9 c=0 threshold(4h+c-2)=34 subsets=48620 hitsA=2 hitsF=2
+p=2147483647 ext=2 e=21 h=8 c=5 threshold(4h+c-2)=35 subsets=203490 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=22 h=8 c=6 threshold(4h+c-2)=36 subsets=319770 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=21 h=9 c=3 threshold(4h+c-2)=37 subsets=293930 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=21 h=10 c=1 threshold(4h+c-2)=39 subsets=352716 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=22 h=9 c=4 threshold(4h+c-2)=38 subsets=497420 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=22 h=10 c=2 threshold(4h+c-2)=40 subsets=646646 hitsA=0 hitsF=0
+  HIT(A-window) S = 0 2 4 6 8 10 12 14 16 18 20
+  HIT(F-window) S = 0 2 4 6 8 10 12 14 16 18 20
+  HIT(A-window) S = 1 3 5 7 9 11 13 15 17 19 21
+  HIT(F-window) S = 1 3 5 7 9 11 13 15 17 19 21
+p=2147483647 ext=2 e=22 h=11 c=0 threshold(4h+c-2)=42 subsets=705432 hitsA=2 hitsF=2
+p=2147483647 ext=2 e=24 h=9 c=6 threshold(4h+c-2)=40 subsets=1307504 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=24 h=10 c=4 threshold(4h+c-2)=42 subsets=1961256 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=24 h=11 c=2 threshold(4h+c-2)=44 subsets=2496144 hitsA=0 hitsF=0
+  HIT(A-window) S = 0 2 4 6 8 10 12 14 16 18 20 22
+  HIT(F-window) S = 0 2 4 6 8 10 12 14 16 18 20 22
+  HIT(A-window) S = 1 3 5 7 9 11 13 15 17 19 21 23
+  HIT(F-window) S = 1 3 5 7 9 11 13 15 17 19 21 23
+p=2147483647 ext=2 e=24 h=12 c=0 threshold(4h+c-2)=46 subsets=2704156 hitsA=2 hitsF=2
+p=2147483647 ext=2 e=28 h=10 c=8 threshold(4h+c-2)=46 subsets=13123110 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=28 h=11 c=6 threshold(4h+c-2)=48 subsets=21474180 hitsA=0 hitsF=0
+p=11 ext=1 e=5 h=2 c=1 threshold(4h+c-2)=7 subsets=10 hitsA=0 hitsF=0
+p=31 ext=1 e=5 h=2 c=1 threshold(4h+c-2)=7 subsets=10 hitsA=0 hitsF=0
+p=29 ext=1 e=7 h=3 c=1 threshold(4h+c-2)=11 subsets=35 hitsA=0 hitsF=0
+p=43 ext=1 e=7 h=3 c=1 threshold(4h+c-2)=11 subsets=35 hitsA=0 hitsF=0
+p=17 ext=1 e=8 h=3 c=2 threshold(4h+c-2)=12 subsets=56 hitsA=0 hitsF=0
+p=41 ext=1 e=8 h=3 c=2 threshold(4h+c-2)=12 subsets=56 hitsA=0 hitsF=0
+p=19 ext=1 e=9 h=4 c=1 threshold(4h+c-2)=15 subsets=126 hitsA=0 hitsF=0
+p=37 ext=1 e=9 h=4 c=1 threshold(4h+c-2)=15 subsets=126 hitsA=0 hitsF=0
+p=11 ext=1 e=10 h=4 c=2 threshold(4h+c-2)=16 subsets=210 hitsA=0 hitsF=0
+p=31 ext=1 e=10 h=4 c=2 threshold(4h+c-2)=16 subsets=210 hitsA=0 hitsF=0
+p=41 ext=1 e=10 h=4 c=2 threshold(4h+c-2)=16 subsets=210 hitsA=0 hitsF=0
+p=23 ext=1 e=11 h=4 c=3 threshold(4h+c-2)=17 subsets=330 hitsA=0 hitsF=0
+p=67 ext=1 e=11 h=4 c=3 threshold(4h+c-2)=17 subsets=330 hitsA=0 hitsF=0
+p=23 ext=1 e=11 h=5 c=1 threshold(4h+c-2)=19 subsets=462 hitsA=0 hitsF=0
+p=67 ext=1 e=11 h=5 c=1 threshold(4h+c-2)=19 subsets=462 hitsA=0 hitsF=0
+p=13 ext=1 e=12 h=5 c=2 threshold(4h+c-2)=20 subsets=792 hitsA=0 hitsF=0
+p=37 ext=1 e=12 h=5 c=2 threshold(4h+c-2)=20 subsets=792 hitsA=0 hitsF=0
+p=61 ext=1 e=12 h=5 c=2 threshold(4h+c-2)=20 subsets=792 hitsA=0 hitsF=0
+p=53 ext=1 e=13 h=5 c=3 threshold(4h+c-2)=21 subsets=1287 hitsA=0 hitsF=0
+p=79 ext=1 e=13 h=5 c=3 threshold(4h+c-2)=21 subsets=1287 hitsA=0 hitsF=0
+p=53 ext=1 e=13 h=6 c=1 threshold(4h+c-2)=23 subsets=1716 hitsA=0 hitsF=0
+p=79 ext=1 e=13 h=6 c=1 threshold(4h+c-2)=23 subsets=1716 hitsA=0 hitsF=0
+p=29 ext=1 e=14 h=5 c=4 threshold(4h+c-2)=22 subsets=2002 hitsA=0 hitsF=0
+p=43 ext=1 e=14 h=5 c=4 threshold(4h+c-2)=22 subsets=2002 hitsA=0 hitsF=0
+p=29 ext=1 e=14 h=6 c=2 threshold(4h+c-2)=24 subsets=3003 hitsA=0 hitsF=0
+p=43 ext=1 e=14 h=6 c=2 threshold(4h+c-2)=24 subsets=3003 hitsA=0 hitsF=0
+p=31 ext=1 e=15 h=6 c=3 threshold(4h+c-2)=25 subsets=5005 hitsA=0 hitsF=0
+p=61 ext=1 e=15 h=6 c=3 threshold(4h+c-2)=25 subsets=5005 hitsA=0 hitsF=0
+p=31 ext=1 e=15 h=7 c=1 threshold(4h+c-2)=27 subsets=6435 hitsA=0 hitsF=0
+p=61 ext=1 e=15 h=7 c=1 threshold(4h+c-2)=27 subsets=6435 hitsA=0 hitsF=0
+p=17 ext=1 e=16 h=6 c=4 threshold(4h+c-2)=26 subsets=8008 hitsA=0 hitsF=0
+p=97 ext=1 e=16 h=6 c=4 threshold(4h+c-2)=26 subsets=8008 hitsA=0 hitsF=0
+p=113 ext=1 e=16 h=6 c=4 threshold(4h+c-2)=26 subsets=8008 hitsA=0 hitsF=0
+p=17 ext=1 e=16 h=7 c=2 threshold(4h+c-2)=28 subsets=11440 hitsA=0 hitsF=0
+p=97 ext=1 e=16 h=7 c=2 threshold(4h+c-2)=28 subsets=11440 hitsA=0 hitsF=0
+p=113 ext=1 e=16 h=7 c=2 threshold(4h+c-2)=28 subsets=11440 hitsA=0 hitsF=0
+p=103 ext=1 e=17 h=6 c=5 threshold(4h+c-2)=27 subsets=12376 hitsA=0 hitsF=0
+p=137 ext=1 e=17 h=6 c=5 threshold(4h+c-2)=27 subsets=12376 hitsA=0 hitsF=0
+p=103 ext=1 e=17 h=7 c=3 threshold(4h+c-2)=29 subsets=19448 hitsA=0 hitsF=0
+p=137 ext=1 e=17 h=7 c=3 threshold(4h+c-2)=29 subsets=19448 hitsA=0 hitsF=0
+p=103 ext=1 e=17 h=8 c=1 threshold(4h+c-2)=31 subsets=24310 hitsA=0 hitsF=0
+p=137 ext=1 e=17 h=8 c=1 threshold(4h+c-2)=31 subsets=24310 hitsA=0 hitsF=0
+p=19 ext=1 e=18 h=7 c=4 threshold(4h+c-2)=30 subsets=31824 hitsA=0 hitsF=0
+p=37 ext=1 e=18 h=7 c=4 threshold(4h+c-2)=30 subsets=31824 hitsA=0 hitsF=0
+p=73 ext=1 e=18 h=7 c=4 threshold(4h+c-2)=30 subsets=31824 hitsA=0 hitsF=0
+p=19 ext=1 e=18 h=8 c=2 threshold(4h+c-2)=32 subsets=43758 hitsA=0 hitsF=0
+p=37 ext=1 e=18 h=8 c=2 threshold(4h+c-2)=32 subsets=43758 hitsA=0 hitsF=0
+p=73 ext=1 e=18 h=8 c=2 threshold(4h+c-2)=32 subsets=43758 hitsA=0 hitsF=0
+p=191 ext=1 e=19 h=7 c=5 threshold(4h+c-2)=31 subsets=50388 hitsA=0 hitsF=0
+p=229 ext=1 e=19 h=7 c=5 threshold(4h+c-2)=31 subsets=50388 hitsA=0 hitsF=0
+p=191 ext=1 e=19 h=8 c=3 threshold(4h+c-2)=33 subsets=75582 hitsA=0 hitsF=0
+p=229 ext=1 e=19 h=8 c=3 threshold(4h+c-2)=33 subsets=75582 hitsA=0 hitsF=0
+p=191 ext=1 e=19 h=9 c=1 threshold(4h+c-2)=35 subsets=92378 hitsA=0 hitsF=0
+p=229 ext=1 e=19 h=9 c=1 threshold(4h+c-2)=35 subsets=92378 hitsA=0 hitsF=0
+p=41 ext=1 e=20 h=7 c=6 threshold(4h+c-2)=32 subsets=77520 hitsA=0 hitsF=0
+p=61 ext=1 e=20 h=7 c=6 threshold(4h+c-2)=32 subsets=77520 hitsA=0 hitsF=0
+p=41 ext=1 e=20 h=8 c=4 threshold(4h+c-2)=34 subsets=125970 hitsA=0 hitsF=0
+p=61 ext=1 e=20 h=8 c=4 threshold(4h+c-2)=34 subsets=125970 hitsA=0 hitsF=0
+p=41 ext=1 e=20 h=9 c=2 threshold(4h+c-2)=36 subsets=167960 hitsA=0 hitsF=0
+p=61 ext=1 e=20 h=9 c=2 threshold(4h+c-2)=36 subsets=167960 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=28 h=12 c=4 threshold(4h+c-2)=50 subsets=30421755 hitsA=0 hitsF=0
+p=2147483647 ext=2 e=28 h=13 c=2 threshold(4h+c-2)=52 subsets=37442160 hitsA=0 hitsF=0
+  HIT(A-window) S = 0 2 4 6 8 10 12 14 16 18 20 22 24 26
+  HIT(F-window) S = 0 2 4 6 8 10 12 14 16 18 20 22 24 26
+  HIT(A-window) S = 1 3 5 7 9 11 13 15 17 19 21 23 25 27
+  HIT(F-window) S = 1 3 5 7 9 11 13 15 17 19 21 23 25 27
+p=2147483647 ext=2 e=28 h=14 c=0 threshold(4h+c-2)=54 subsets=40116600 hitsA=2 hitsF=2

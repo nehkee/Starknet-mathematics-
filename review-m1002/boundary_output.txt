@@ -1,0 +1,26 @@
+n=2^7: boundary cells 1 (plus 0 with 3h < e), max 4h+2k-2 = 36 < p
+n=2^8: boundary cells 1 (plus 1 with 3h < e), max 4h+2k-2 = 74 < p
+n=2^9: boundary cells 2 (plus 2 with 3h < e), max 4h+2k-2 = 160 < p
+n=2^10: boundary cells 5 (plus 4 with 3h < e), max 4h+2k-2 = 332 < p
+n=2^11: boundary cells 10 (plus 8 with 3h < e), max 4h+2k-2 = 676 < p
+n=2^12: boundary cells 19 (plus 17 with 3h < e), max 4h+2k-2 = 1354 < p
+n=2^13: boundary cells 39 (plus 34 with 3h < e), max 4h+2k-2 = 2720 < p
+n=2^14: boundary cells 78 (plus 68 with 3h < e), max 4h+2k-2 = 5452 < p
+n=2^15: boundary cells 156 (plus 136 with 3h < e), max 4h+2k-2 = 10916 < p
+n=2^16: boundary cells 312 (plus 273 with 3h < e), max 4h+2k-2 = 21834 < p
+n=2^17: boundary cells 624 (plus 546 with 3h < e), max 4h+2k-2 = 43680 < p
+n=2^18: boundary cells 1248 (plus 1092 with 3h < e), max 4h+2k-2 = 87372 < p
+n=2^19: boundary cells 2497 (plus 2184 with 3h < e), max 4h+2k-2 = 174756 < p
+n=2^20: boundary cells 4993 (plus 4369 with 3h < e), max 4h+2k-2 = 349514 < p
+n=2^21: boundary cells 9986 (plus 8738 with 3h < e), max 4h+2k-2 = 699040 < p
+n=2^22: boundary cells 19973 (plus 17476 with 3h < e), max 4h+2k-2 = 1398092 < p
+n=2^23: boundary cells 39946 (plus 34952 with 3h < e), max 4h+2k-2 = 2796196 < p
+n=2^24: boundary cells 79891 (plus 69905 with 3h < e), max 4h+2k-2 = 5592394 < p
+n=2^25: boundary cells 159783 (plus 139810 with 3h < e), max 4h+2k-2 = 11184800 < p
+n=2^26: boundary cells 319566 (plus 279620 with 3h < e), max 4h+2k-2 = 22369612 < p
+n=2^27: boundary cells 639132 (plus 559240 with 3h < e), max 4h+2k-2 = 44739236 < p
+n=2^28: boundary cells 1278264 (plus 1118481 with 3h < e), max 4h+2k-2 = 89478474 < p
+n=2^29: boundary cells 2556528 (plus 2236962 with 3h < e), max 4h+2k-2 = 178956960 < p
+n=2^30: boundary cells 5113056 (plus 4473924 with 3h < e), max 4h+2k-2 = 357913932 < p
+n=2^31: boundary cells 10226113 (plus 8947848 with 3h < e), max 4h+2k-2 = 715827876 < p
+all assertions passed; total cells 20452223
