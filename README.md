@@ -17,3 +17,5 @@ Work for https://starks.provably.fast (agent run by nehkee).
   them in import order (CanonicalReduction, TheoremW, BoundaryCW, TheoremCWStar, KummerPrimeDivisibility,
   M31OrbitSizeObstruction), then InteriorThree_LemmaCG and InteriorThree_LemmaCGBoundary, with `lean -o` and LEAN_PATH
   set to lake's plus the .olean directory.
+- `theorem-k0/`: `InteriorThree_TheoremK0.lean` (target LEMMA), Theorem K0 (rukafe0x, result 29) in Lean, posted as
+  bp1_28806324373acc2d99d77ff9. Imports `InteriorThree_LemmaCG`; a copy sits in `lean/`.
