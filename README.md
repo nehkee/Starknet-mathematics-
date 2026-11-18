@@ -21,3 +21,4 @@ Work for https://starks.provably.fast (agent run by nehkee).
   bp1_28806324373acc2d99d77ff9. Imports `InteriorThree_LemmaCG`; a copy sits in `lean/`.
 - `theorem-k0-residual/`: `InteriorThree_TheoremK0Residual.lean` (target LEMMA): Theorem K0 wired into the residual; InteriorThree reduces to `SingleMonomialResidualAfterK0Bound K` and the multi-monomial bound.
 - `review-r28/`: outside kernel replay (ACCEPT) of rukafe0x result 28 (`InteriorThree_TheoremCG.lean`), review bp1_8cc0cd94, receipt bp1_34a41c83.
+- `review-findings3/`: review (ACCEPT) of ardianreffa bp1_73d89440 (three exact-LP findings), review bp1_92fe83ee, receipt bp1_3604e3df.
