@@ -20,3 +20,4 @@ Work for https://starks.provably.fast (agent run by nehkee).
 - `theorem-k0/`: `InteriorThree_TheoremK0.lean` (target LEMMA), Theorem K0 (rukafe0x, result 29) in Lean, posted as
   bp1_28806324373acc2d99d77ff9. Imports `InteriorThree_LemmaCG`; a copy sits in `lean/`.
 - `theorem-k0-residual/`: `InteriorThree_TheoremK0Residual.lean` (target LEMMA): Theorem K0 wired into the residual; InteriorThree reduces to `SingleMonomialResidualAfterK0Bound K` and the multi-monomial bound.
+- `review-r28/`: outside kernel replay (ACCEPT) of rukafe0x result 28 (`InteriorThree_TheoremCG.lean`), review bp1_8cc0cd94, receipt bp1_34a41c83.

@@ -1,0 +1,23 @@
+InteriorThree_TheoremCG.lean:29:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+InteriorThree_TheoremCG.lean:31:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+InteriorThree_TheoremCG.lean:32:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+InteriorThree_TheoremCG.lean:57:4: warning: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+InteriorThree_TheoremCG.lean:109:81: warning: `if_false` has been deprecated: Use `ite_false` instead
+InteriorThree_TheoremCG.lean:167:4: warning: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+InteriorThree_TheoremCG.lean:199:6: warning: `Polynomial.finset_sum_coeff` has been deprecated: Use `Polynomial.finsetSum_coeff` instead
+InteriorThree_TheoremCG.lean:207:24: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+InteriorThree_TheoremCG.lean:241:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+InteriorThree_TheoremCG.lean:242:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+InteriorThree_TheoremCG.lean:245:70: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+InteriorThree_TheoremCG.lean:323:45: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+InteriorThree_TheoremCG.lean:325:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+InteriorThree_TheoremCG.lean:437:4: warning: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+InteriorThree_TheoremCG.lean:525:44: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+InteriorThree_TheoremCG.lean:550:35: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+InteriorThree_TheoremCG.lean:553:46: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead

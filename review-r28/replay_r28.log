@@ -1,0 +1,30 @@
+## toolchain
+Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)
+## mathlib rev in the pinned mca-challenge manifest
+   "rev": "5ed2965256430c3649e86755f9576b54eca72435",
+## sha256
+85921b5922bf36b3013e22daf81787923a2405d71a6ba2ae604d48505e567f13  InteriorThree_TheoremCG.lean
+2347d4c1f14f3063c0b179596d2a6f9e43bc12c8f563227094a35f5603db8d79  eval_axioms_cg.lean
+## $ lean -o olean/InteriorThree_TheoremCG.olean InteriorThree_TheoremCG.lean
+exit 0
+errors: 0  warnings (deprecation/unused-tactic linters only): 17
+real 5.788 s
+## $ leanchecker InteriorThree_TheoremCG
+exit 0
+real 4.612 s
+## $ lean eval_axioms_cg.lean
+'CGCore.cg_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGCore.cg_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+@CGCore.cg_field : ∀ {L : Type u_1} [inst : Field L] (F T H : Polynomial L) (h c e : ℕ),
+  1 ≤ c →
+    c < h →
+      e = 2 * h + c →
+        F.Monic →
+          F.natDegree = h →
+            F.coeff 0 ≠ 0 →
+              F ∣ Polynomial.X ^ e - 1 →
+                T.natDegree ≤ h - c →
+                  F ^ 3 = T + Polynomial.X ^ (2 * h - c) * H → (∀ (n : ℕ), 0 < n → n ≤ 4 * h + c - 2 → ↑n ≠ 0) → False
+exit 0
+## control: cg_field's proof replaced by sorry (must report sorryAx)
+'CGCore.cg_field' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
