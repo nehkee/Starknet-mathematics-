@@ -1,0 +1,4 @@
+import InteriorThree_TheoremK0Strong
+#print axioms TheoremK0.theoremK0_ringChar
+#print axioms TheoremK0Strong.theoremK0_strong_ringChar
+#check @TheoremK0.theoremK0_ringChar

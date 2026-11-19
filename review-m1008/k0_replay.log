@@ -1,0 +1,25 @@
+## sha256 of the replayed files (= posted blob ids bp1_28806324, bp1_c7bd9fad)
+dba020bb34879297d3d73472739558bfcc0bcd645c0058eeadadf0345b1d2669  src/InteriorThree_TheoremK0.lean
+93da5323d7532399bcba1cef0c3c6675f11b9360234f68c572b1be494f563701  src/InteriorThree_TheoremK0Strong.lean
+InteriorThree_LemmaCG 3e45c0af1917e28c3fb6758853535b9914c053b733d9293b6ac215780a75a518 build_exit=0 errors=0 warnings=0 time=0.0s
+InteriorThree_TheoremK0 dba020bb34879297d3d73472739558bfcc0bcd645c0058eeadadf0345b1d2669 build_exit=0 errors=0 warnings=0 time=0.0s
+InteriorThree_TheoremK0Strong 93da5323d7532399bcba1cef0c3c6675f11b9360234f68c572b1be494f563701 build_exit=0 errors=0 warnings=0 time=0.0s
+## leanchecker InteriorThree_TheoremK0
+exit 0
+## leanchecker InteriorThree_TheoremK0Strong
+exit 0
+## lean k0_axioms.lean
+'TheoremK0.theoremK0_ringChar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TheoremK0Strong.theoremK0_strong_ringChar' depends on axioms: [propext, Classical.choice, Quot.sound]
+@TheoremK0.theoremK0_ringChar : ∀ {K : Type u_1} [inst : Field K] {A B : Polynomial K} {q0 : K} {h D : ℕ},
+  1 ≤ D →
+    4 * D < h →
+      ringChar K = 0 ∨ 4 * h < ringChar K →
+        A.Monic →
+          A.natDegree = h →
+            B.natDegree ≤ h →
+              Polynomial.eval 0 B ≠ 0 →
+                q0 ≠ 0 →
+                  A ^ 3 + Polynomial.X ^ (2 * h - D) * B ^ 3 =
+                      Polynomial.C q0 * (Polynomial.X ^ (2 * h - D + 2 * h) * A + B) →
+                    False
