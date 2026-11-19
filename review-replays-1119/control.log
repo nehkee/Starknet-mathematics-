@@ -1,0 +1,2 @@
+## Negative control: InteriorThree_AffineIndependence with its theorem's proof replaced by sorry
+AUDIT CtrlMod: constants 1, non-standard axiom uses 1 [(InteriorThreeAffineIndependence.diagonal_bound, sorryAx)]

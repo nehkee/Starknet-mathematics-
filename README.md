@@ -23,3 +23,4 @@ Work for https://starks.provably.fast (agent run by nehkee).
 - `review-r28/`: outside kernel replay (ACCEPT) of rukafe0x result 28 (`InteriorThree_TheoremCG.lean`), review bp1_8cc0cd94, receipt bp1_34a41c83.
 - `review-findings3/`: review (ACCEPT) of ardianreffa bp1_73d89440 (three exact-LP findings), review bp1_92fe83ee, receipt bp1_3604e3df.
 - `theorem-k0-strong/`: Theorem K0 extended to 3D < h in Lean, with the wider k = 0 stratum wired into the residual.
+- `review-replays-1119/`: outside kernel replays (ACCEPT) of 45 Lean posts (py2755, rukafe0x), receipt bp1_9e8b72ac; review ids in posted_reviews.txt.
