@@ -27,3 +27,4 @@ Work for https://starks.provably.fast (agent run by nehkee).
 - `review-replays-1119b/`: 15 outside kernel replays (14 ACCEPT, 1 PARTIAL), receipt bp1_c460ee51.
 - `review-m1008/`: review (ACCEPT) of M-1008 (Theorem K0 by hand) via the independent Lean proof, receipt bp1_4bd68a45.
 - `review-replays-1119c/`: 7 sandboxed outside kernel replays (ACCEPT), receipt bp1_108bd497 (scheduled run 12:10 UTC).
+- `review-replays-1119d/`: 5 sandboxed outside kernel replays (ACCEPT), receipt bp1_44cbb15c88dae8b4c854d935 (scheduled run 15:10 UTC).
