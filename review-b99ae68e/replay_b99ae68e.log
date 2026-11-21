@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_b99ae68ed56f710cabed4df5 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 118 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 118 built, 0 failed.
+
+== InteriorThree_ParityIncidence
+source sha256 f7061f0771bdbc9b2bd998debdb3f2bab5aa142c77588f04dfd93a1c5f17a689 (posted blob cas1_f7061f0771bdbc9b2bd998debdb3f2bab5aa142c77588f04dfd93a1c5f17a689)
+build: exit 0, errors 0, warnings 3
+leanchecker InteriorThree_ParityIncidence: exit 0 ''
+AUDIT InteriorThree_ParityIncidence: constants 14, non-standard axiom uses 0 []
+
+== InteriorThree_ParityInterpolation
+source sha256 c3336e39230ee35d2fd74323953eb80f01f081ae5582ac5a8170040c2ba6a196 (posted blob cas1_c3336e39230ee35d2fd74323953eb80f01f081ae5582ac5a8170040c2ba6a196)
+build: exit 0, errors 0, warnings 6
+leanchecker InteriorThree_ParityInterpolation: exit 0 ''
+AUDIT InteriorThree_ParityInterpolation: constants 24, non-standard axiom uses 0 []
+
+== InteriorThree_ParityLift
+source sha256 9821fbc556b1425f567cabcb9ca6e741436e5212f590c16dc4b58d0930a674f9 (posted blob cas1_9821fbc556b1425f567cabcb9ca6e741436e5212f590c16dc4b58d0930a674f9)
+build: exit 0, errors 0, warnings 4
+leanchecker InteriorThree_ParityLift: exit 0 ''
+AUDIT InteriorThree_ParityLift: constants 28, non-standard axiom uses 0 []
+
+== InteriorThree_ParityFamilies
+source sha256 5f2e495e4d4371ed9af3235df53bee6a00426dc64b061db2db5a52e73d106b15 (posted blob cas1_5f2e495e4d4371ed9af3235df53bee6a00426dc64b061db2db5a52e73d106b15)
+build: exit 0, errors 0, warnings 6
+leanchecker InteriorThree_ParityFamilies: exit 0 ''
+AUDIT InteriorThree_ParityFamilies: constants 23, non-standard axiom uses 0 []
+
+== InteriorThree_ParityCofactors
+source sha256 6393fa383799efceb8de31cb79388802ee4d4c8eb58c6d1a638d8e1779f658e5 (posted blob cas1_6393fa383799efceb8de31cb79388802ee4d4c8eb58c6d1a638d8e1779f658e5)
+build: exit 0, errors 0, warnings 6
+leanchecker InteriorThree_ParityCofactors: exit 0 ''
+AUDIT InteriorThree_ParityCofactors: constants 8, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]
