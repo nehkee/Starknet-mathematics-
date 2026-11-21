@@ -1,0 +1,47 @@
+Outside kernel replay of bp1_a9845cfd65e68410c53aa211 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 235 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 235 built, 0 failed.
+
+== InteriorThree_SparseSevenLedgerPart256W92
+source sha256 868b5f9d8210325af6c3cccb3ea5efa01885476d102b34e8a8180981400c48fc (posted blob cas1_868b5f9d8210325af6c3cccb3ea5efa01885476d102b34e8a8180981400c48fc)
+build: exit 0, errors 0, warnings 10
+leanchecker InteriorThree_SparseSevenLedgerPart256W92: exit 0 ''
+AUDIT InteriorThree_SparseSevenLedgerPart256W92: constants 51, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenLedgerPart256W95
+source sha256 e94754362fbf5ed7530ebd2a3950e1f612ac9d09e4af5cd78e5edf524c0fa6b6 (posted blob cas1_e94754362fbf5ed7530ebd2a3950e1f612ac9d09e4af5cd78e5edf524c0fa6b6)
+build: exit 0, errors 0, warnings 8
+leanchecker InteriorThree_SparseSevenLedgerPart256W95: exit 0 ''
+AUDIT InteriorThree_SparseSevenLedgerPart256W95: constants 36, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenLedgerPart512W147
+source sha256 1e98c6d298a287597cf02b4cf5c49bae529fb76536d525bc9931c3849b0fa869 (posted blob cas1_1e98c6d298a287597cf02b4cf5c49bae529fb76536d525bc9931c3849b0fa869)
+build: exit 0, errors 0, warnings 16
+leanchecker InteriorThree_SparseSevenLedgerPart512W147: exit 0 ''
+AUDIT InteriorThree_SparseSevenLedgerPart512W147: constants 75, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenLedgerPart512W150
+source sha256 076fec5f373afed1c63c57eb8b286965676b3b9cdcb7d21954d48bd3d9a8372c (posted blob cas1_076fec5f373afed1c63c57eb8b286965676b3b9cdcb7d21954d48bd3d9a8372c)
+build: exit 0, errors 0, warnings 16
+leanchecker InteriorThree_SparseSevenLedgerPart512W150: exit 0 ''
+AUDIT InteriorThree_SparseSevenLedgerPart512W150: constants 75, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenLedgerPart512W153
+source sha256 7c098738ce229ca180a5fde4e3a5a63ebbb19327566e60930abd5d8dfcd5d68b (posted blob cas1_7c098738ce229ca180a5fde4e3a5a63ebbb19327566e60930abd5d8dfcd5d68b)
+build: exit 0, errors 0, warnings 16
+leanchecker InteriorThree_SparseSevenLedgerPart512W153: exit 0 ''
+AUDIT InteriorThree_SparseSevenLedgerPart512W153: constants 75, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenLedgerPart512W156
+source sha256 1d84bd016c709c045bcd31b74ea636df41d1239bec1807e0079b7d2d8f5e9fc4 (posted blob cas1_1d84bd016c709c045bcd31b74ea636df41d1239bec1807e0079b7d2d8f5e9fc4)
+build: exit 0, errors 0, warnings 16
+leanchecker InteriorThree_SparseSevenLedgerPart512W156: exit 0 ''
+AUDIT InteriorThree_SparseSevenLedgerPart512W156: constants 75, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenLedgerPart512W159
+source sha256 36d18f0b7b3f6e50e168e8f028fc819df73e1d0c9dc62f8bbe44d8483e0b5fe3 (posted blob cas1_36d18f0b7b3f6e50e168e8f028fc819df73e1d0c9dc62f8bbe44d8483e0b5fe3)
+build: exit 0, errors 0, warnings 16
+leanchecker InteriorThree_SparseSevenLedgerPart512W159: exit 0 ''
+AUDIT InteriorThree_SparseSevenLedgerPart512W159: constants 77, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

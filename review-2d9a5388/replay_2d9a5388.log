@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_2d9a5388127742ea73293a9a by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 235 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 235 built, 0 failed.
+
+== InteriorThree_Native64
+source sha256 13b7b5f0881f2d799c1b5aafe8663b35bee6281838bed46ea066ea422b6cd14c (posted blob cas1_13b7b5f0881f2d799c1b5aafe8663b35bee6281838bed46ea066ea422b6cd14c)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_Native64: exit 0 ''
+AUDIT InteriorThree_Native64: constants 6, non-standard axiom uses 0 []
+
+== InteriorThree_NativeGram
+source sha256 ded4537530b971f3b019a095f65a5f3f061b3ef33e6b2a4d5fa3a5c4ccfd02e8 (posted blob cas1_ded4537530b971f3b019a095f65a5f3f061b3ef33e6b2a4d5fa3a5c4ccfd02e8)
+build: exit 0, errors 0, warnings 5
+leanchecker InteriorThree_NativeGram: exit 0 ''
+AUDIT InteriorThree_NativeGram: constants 35, non-standard axiom uses 0 []
+
+== InteriorThree_NativePacking
+source sha256 b2b104e6a7e704d9b4e7a40221db73fa5224aab5598e5e5814e49cdc8b7a4143 (posted blob cas1_b2b104e6a7e704d9b4e7a40221db73fa5224aab5598e5e5814e49cdc8b7a4143)
+build: exit 0, errors 0, warnings 7
+leanchecker InteriorThree_NativePacking: exit 0 ''
+AUDIT InteriorThree_NativePacking: constants 31, non-standard axiom uses 0 []
+
+== InteriorThree_NativeRays
+source sha256 92d78264b143e14aceb61394e5367097895d91cb80cc0dd7910368f88a83691f (posted blob cas1_92d78264b143e14aceb61394e5367097895d91cb80cc0dd7910368f88a83691f)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_NativeRays: exit 0 ''
+AUDIT InteriorThree_NativeRays: constants 23, non-standard axiom uses 0 []
+
+== InteriorThree_NativeNeighbors
+source sha256 595f407ea700f4ddd67fe3827bd005865723481125c21f46c2c4ce388ab72f42 (posted blob cas1_595f407ea700f4ddd67fe3827bd005865723481125c21f46c2c4ce388ab72f42)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_NativeNeighbors: exit 0 ''
+AUDIT InteriorThree_NativeNeighbors: constants 6, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

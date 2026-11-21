@@ -1,0 +1,29 @@
+Outside kernel replay of bp1_c9e97eea335f6372ae4d4004 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 235 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 235 built, 0 failed.
+
+== InteriorThree_SparseSevenLift
+source sha256 6450b11626c6aa9aa94ee0a61083659cfde8fdf8a6161b3234ce8a88c9891342 (posted blob cas1_6450b11626c6aa9aa94ee0a61083659cfde8fdf8a6161b3234ce8a88c9891342)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_SparseSevenLift: exit 0 ''
+AUDIT InteriorThree_SparseSevenLift: constants 12, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenLarge
+source sha256 83018499e5ca6a545944d4363357e554d31c403fd3ef6de9c90fd981cfd8eff4 (posted blob cas1_83018499e5ca6a545944d4363357e554d31c403fd3ef6de9c90fd981cfd8eff4)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_SparseSevenLarge: exit 0 ''
+AUDIT InteriorThree_SparseSevenLarge: constants 22, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenLedger
+source sha256 6c07bc5bc40b4eab6a4000fff3af1e9eb587ef3f25fd4ea1627b93a885d4439e (posted blob cas1_6c07bc5bc40b4eab6a4000fff3af1e9eb587ef3f25fd4ea1627b93a885d4439e)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_SparseSevenLedger: exit 0 ''
+AUDIT InteriorThree_SparseSevenLedger: constants 51, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenLedgerChunks
+source sha256 d7be5024b8f3d059f057115f9c1ed6c15ee6965ffde437e81b882e6655e14c63 (posted blob cas1_d7be5024b8f3d059f057115f9c1ed6c15ee6965ffde437e81b882e6655e14c63)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_SparseSevenLedgerChunks: exit 0 ''
+AUDIT InteriorThree_SparseSevenLedgerChunks: constants 3, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

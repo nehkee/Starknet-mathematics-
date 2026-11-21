@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_4966b38dfc1fa3f94aed0923 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 235 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 235 built, 0 failed.
+
+== InteriorThree_ReflectedClass
+source sha256 97428d4eef8e7cf717e525627515bc68d5aadebe7ef7d057b9e43be80ac7b914 (posted blob cas1_97428d4eef8e7cf717e525627515bc68d5aadebe7ef7d057b9e43be80ac7b914)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_ReflectedClass: exit 0 ''
+AUDIT InteriorThree_ReflectedClass: constants 19, non-standard axiom uses 0 []
+
+== InteriorThree_ScalarNativeLift
+source sha256 973dcc71cf2d62c0d2b5a212198b4518204efa489b13957eb170e621d9e0384b (posted blob cas1_973dcc71cf2d62c0d2b5a212198b4518204efa489b13957eb170e621d9e0384b)
+build: exit 0, errors 0, warnings 6
+leanchecker InteriorThree_ScalarNativeLift: exit 0 ''
+AUDIT InteriorThree_ScalarNativeLift: constants 12, non-standard axiom uses 0 []
+
+== InteriorThree_ScalarNativeExact
+source sha256 4963aa265ffa2c1698d29d125ba9cda3c9a0d53c69ea3a308c60da2391451334 (posted blob cas1_4963aa265ffa2c1698d29d125ba9cda3c9a0d53c69ea3a308c60da2391451334)
+build: exit 0, errors 0, warnings 7
+leanchecker InteriorThree_ScalarNativeExact: exit 0 ''
+AUDIT InteriorThree_ScalarNativeExact: constants 19, non-standard axiom uses 0 []
+
+== InteriorThree_ScalarLargeSizes
+source sha256 28556c3b3610aa1b1aefd8314d7e04128498d0a5c53d5eb2b0761959d7d4bbee (posted blob cas1_28556c3b3610aa1b1aefd8314d7e04128498d0a5c53d5eb2b0761959d7d4bbee)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_ScalarLargeSizes: exit 0 ''
+AUDIT InteriorThree_ScalarLargeSizes: constants 8, non-standard axiom uses 0 []
+
+== InteriorThree_ScalarMirrorWiring
+source sha256 261011bbee2fbb130fef865e93e85539b079ab4ff65a6b7fec4cf8e424f38a30 (posted blob cas1_261011bbee2fbb130fef865e93e85539b079ab4ff65a6b7fec4cf8e424f38a30)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_ScalarMirrorWiring: exit 0 ''
+AUDIT InteriorThree_ScalarMirrorWiring: constants 3, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

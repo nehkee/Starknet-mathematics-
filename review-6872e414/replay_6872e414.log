@@ -1,0 +1,29 @@
+Outside kernel replay of bp1_6872e414a311531794f0a705 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 235 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 235 built, 0 failed.
+
+== InteriorThree_BlockBoundary
+source sha256 55805c5b84a62aca4ee92816b63633e3ba149fe1f3c3c85525c2ae1526ec3bf1 (posted blob cas1_55805c5b84a62aca4ee92816b63633e3ba149fe1f3c3c85525c2ae1526ec3bf1)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_BlockBoundary: exit 0 ''
+AUDIT InteriorThree_BlockBoundary: constants 12, non-standard axiom uses 0 []
+
+== InteriorThree_BlockLabelPacking
+source sha256 1dec7f79b3674e21edd0b5b6e1a35507888112fb5599b560f3ea312b3fc863d9 (posted blob cas1_1dec7f79b3674e21edd0b5b6e1a35507888112fb5599b560f3ea312b3fc863d9)
+build: exit 0, errors 0, warnings 3
+leanchecker InteriorThree_BlockLabelPacking: exit 0 ''
+AUDIT InteriorThree_BlockLabelPacking: constants 7, non-standard axiom uses 0 []
+
+== InteriorThree_MirrorBlocks
+source sha256 5c270902ab3b157b77a728e74e138d14c822ee0b106b63f8282c8f9e74637784 (posted blob cas1_5c270902ab3b157b77a728e74e138d14c822ee0b106b63f8282c8f9e74637784)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_MirrorBlocks: exit 0 ''
+AUDIT InteriorThree_MirrorBlocks: constants 5, non-standard axiom uses 0 []
+
+== InteriorThree_MirrorBlockGrid
+source sha256 86c535a32c3ce5a42def0cbece2d55bad60191d34218866f0e9f82bc32873e22 (posted blob cas1_86c535a32c3ce5a42def0cbece2d55bad60191d34218866f0e9f82bc32873e22)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_MirrorBlockGrid: exit 0 ''
+AUDIT InteriorThree_MirrorBlockGrid: constants 28, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

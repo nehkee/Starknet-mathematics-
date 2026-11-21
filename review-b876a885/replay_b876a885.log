@@ -1,0 +1,17 @@
+Outside kernel replay of bp1_b876a8851b23bb7b9c1af7c2 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 235 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 235 built, 0 failed.
+
+== InteriorThree_SparseSevenWiring
+source sha256 175a83bb880bc8b0805f03c053149f81e9be9767eb2b5da4622c9a7a75a25c15 (posted blob cas1_175a83bb880bc8b0805f03c053149f81e9be9767eb2b5da4622c9a7a75a25c15)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_SparseSevenWiring: exit 0 ''
+AUDIT InteriorThree_SparseSevenWiring: constants 10, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenCount
+source sha256 37fee9b9b73ae15d0ec1a13301f22a6679f4b4d0aa91537d226f2841730d0165 (posted blob cas1_37fee9b9b73ae15d0ec1a13301f22a6679f4b4d0aa91537d226f2841730d0165)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_SparseSevenCount: exit 0 ''
+AUDIT InteriorThree_SparseSevenCount: constants 22, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

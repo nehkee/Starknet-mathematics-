@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_5b3f79d920bf0eb1df846b73 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 235 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 235 built, 0 failed.
+
+== InteriorThree_SparseSevenCells
+source sha256 f2f06f773024175475412cf16a43e39adf4bec096ef3cf39248f2e25e42a00ae (posted blob cas1_f2f06f773024175475412cf16a43e39adf4bec096ef3cf39248f2e25e42a00ae)
+build: exit 0, errors 0, warnings 3
+leanchecker InteriorThree_SparseSevenCells: exit 0 ''
+AUDIT InteriorThree_SparseSevenCells: constants 17, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenShape
+source sha256 81bc554af8a09873249b2c11e3cb149ed16d0247393e0c717920171199ad4abe (posted blob cas1_81bc554af8a09873249b2c11e3cb149ed16d0247393e0c717920171199ad4abe)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_SparseSevenShape: exit 0 ''
+AUDIT InteriorThree_SparseSevenShape: constants 35, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenQuotient
+source sha256 cf96c6f97697eaa5b077bcb5ecdc787f23e5d26fcf5bbaa2694467ac20cca08d (posted blob cas1_cf96c6f97697eaa5b077bcb5ecdc787f23e5d26fcf5bbaa2694467ac20cca08d)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_SparseSevenQuotient: exit 0 ''
+AUDIT InteriorThree_SparseSevenQuotient: constants 112, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenCover
+source sha256 83d5ff18cf25136b3c4dd1353b0d4700252e9fee3eb6364082540baeff2cb288 (posted blob cas1_83d5ff18cf25136b3c4dd1353b0d4700252e9fee3eb6364082540baeff2cb288)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_SparseSevenCover: exit 0 ''
+AUDIT InteriorThree_SparseSevenCover: constants 1826, non-standard axiom uses 0 []
+
+== InteriorThree_SparseSevenChart
+source sha256 907761b5d5965b0511ed1cc334b65c15f7bc16e42bd02a0b10467f1af695a783 (posted blob cas1_907761b5d5965b0511ed1cc334b65c15f7bc16e42bd02a0b10467f1af695a783)
+build: exit 0, errors 0, warnings 4
+leanchecker InteriorThree_SparseSevenChart: exit 0 ''
+AUDIT InteriorThree_SparseSevenChart: constants 57, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]
