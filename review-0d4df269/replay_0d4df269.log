@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_0d4df269a09c90f1a96fdfe8 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 151 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 151 built, 0 failed.
+
+== InteriorThree_PencilRank
+source sha256 f8628161d8888198ebcad33ef797cb688b567e19fc79a58c2061eb1803c80b5c (posted blob cas1_f8628161d8888198ebcad33ef797cb688b567e19fc79a58c2061eb1803c80b5c)
+build: exit 0, errors 0, warnings 4
+leanchecker InteriorThree_PencilRank: exit 0 ''
+AUDIT InteriorThree_PencilRank: constants 15, non-standard axiom uses 0 []
+
+== InteriorThree_PencilMonomials
+source sha256 e1adb6679e09b56ded5dbf1f4d8a4a05504f12c261c08d8da0f6ce1b81f10f77 (posted blob cas1_e1adb6679e09b56ded5dbf1f4d8a4a05504f12c261c08d8da0f6ce1b81f10f77)
+build: exit 0, errors 0, warnings 4
+leanchecker InteriorThree_PencilMonomials: exit 0 ''
+AUDIT InteriorThree_PencilMonomials: constants 20, non-standard axiom uses 0 []
+
+== InteriorThree_PencilShapes
+source sha256 9dddd135ee588cbb5d1e1efcb44beb534edb80880b087073373d8a4343f8dfce (posted blob cas1_9dddd135ee588cbb5d1e1efcb44beb534edb80880b087073373d8a4343f8dfce)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_PencilShapes: exit 0 ''
+AUDIT InteriorThree_PencilShapes: constants 32, non-standard axiom uses 0 []
+
+== InteriorThree_PencilUniversal
+source sha256 f2cd4c0b753f7cc976008058328a1eadb2154863b8db7eaecdc6e37ed20d2ce7 (posted blob cas1_f2cd4c0b753f7cc976008058328a1eadb2154863b8db7eaecdc6e37ed20d2ce7)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_PencilUniversal: exit 0 ''
+AUDIT InteriorThree_PencilUniversal: constants 18, non-standard axiom uses 0 []
+
+== InteriorThree_PencilTwoMasks
+source sha256 4bfe3be5dd4ac2b43f10fe13a42ae6af4f13e47b456f3c1933f11c0060534ffd (posted blob cas1_4bfe3be5dd4ac2b43f10fe13a42ae6af4f13e47b456f3c1933f11c0060534ffd)
+build: exit 0, errors 0, warnings 3
+leanchecker InteriorThree_PencilTwoMasks: exit 0 ''
+AUDIT InteriorThree_PencilTwoMasks: constants 15, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]
