@@ -1,0 +1,12 @@
+Part A: counting bound, every word, any field
+  r=4 n=16: C(16,9)/C(10,9) = 1144 -> |L| <= 1144; allowance 1144; Remainder K holds at this size for every K >= 143; K = 2^20 gives K n = 16777216
+  r=5 n=32: C(32,17)/C(20,17) = 496248 -> |L| <= 496248; allowance 496248; Remainder K holds at this size for every K >= 31016; K = 2^20 gives K n = 33554432
+Part B: exact native lists at n = 16 over F_{p^2}, p = 2^31 - 1
+  X^12 (centre, R = 0): native list 58 (bound 1144); block-shaped members 48, remainder list 10
+  X^12 + R, R random deg <= 8 (centre): native list 0 (bound 1144); block-shaped members 0, remainder list 0
+  X^9 + X^11 + X^15, R = 0: native list 0 (bound 1144)
+  X^10 + X^14, R = 0: native list 43 (bound 1144)
+  random trinomial exponents [11, 12, 13], random coefficients and R: native list 0 (bound 1144)
+  random trinomial exponents [9, 12, 14], random coefficients and R: native list 0 (bound 1144)
+  random trinomial exponents [9, 10, 13], random coefficients and R: native list 0 (bound 1144)
+done
