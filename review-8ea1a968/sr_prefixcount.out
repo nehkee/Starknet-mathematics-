@@ -1,0 +1,7 @@
+Part A: counting bound, every reached row and key, rule .blocks {}, identity relabelling
+  r=4 n=16: #records <= #masks <= #good words <= C(16,9)/C(10,9) = 1144; C0 n = 2796192; holds: True
+  r=5 n=32: #records <= #masks <= #good words <= C(32,17)/C(20,17) = 496248; C0 n = 5592384; holds: True
+Part B: record fibres of all heavy masks at n = 16 over F_{p^2}
+  weight 5: 4368 masks (C(16,5) = 4368), width 4, 4336 records, fibre sizes (size, count): [(1, 4320), (3, 16)]
+  weight 6: 8008 masks (C(16,6) = 8008), width 4, 7864 records, fibre sizes (size, count): [(1, 7744), (2, 96), (3, 24)]
+done
