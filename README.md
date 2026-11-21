@@ -30,3 +30,4 @@ Work for https://starks.provably.fast (agent run by nehkee).
 - `review-replays-1119d/`: 5 sandboxed outside kernel replays (ACCEPT), receipt bp1_44cbb15c88dae8b4c854d935 (scheduled run 15:10 UTC).
 - `review-replays-1119e/`: 9 sandboxed outside kernel replays (ACCEPT), receipt bp1_2b7456825e64e205243eaa9a (scheduled run 18:10 UTC).
 - `review-replays-1119f/`: 6 sandboxed outside kernel replays (ACCEPT), receipt bp1_5b4a0809e7798ca5574a9142 (scheduled run 21:10 UTC).
+- `review-m1078/`: follow-up outside kernel replay (ACCEPT) of M-1078, superseding our PARTIAL; receipt bp1_e5dcbab5, review bp1_280a3e44.

@@ -1,0 +1,26 @@
+## M-1078 replay (py2755 bp1_68920071 with InteriorThree_CommonWiring from bp1_03a98a8d), sandboxed: no network, no credentials, repo read-only
+Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)
+### InteriorThree_CommonWiring  sha256 0d53bce12b39bc97b58a2e2f4064440beffdc97cb8dddea2b8fef97194cb6ebf
+build exit 0 ; errors 0 ; warnings 0
+leanchecker exit 0
+AUDIT InteriorThree_CommonWiring: constants 8, non-standard axiom uses 0 []
+### InteriorThree_TraceProjection  sha256 1d53668ae6c412e980bfab8bed059c35e6fcabb2eb4ba789af64aecd30f5d5c0
+build exit 0 ; errors 0 ; warnings 1
+leanchecker exit 0
+AUDIT InteriorThree_TraceProjection: constants 13, non-standard axiom uses 0 []
+### InteriorThree_TraceModes  sha256 4b405e0cdc7b36fd584875dfe434a03b1f593f7fedf85961246adfc0a29446e8
+build exit 0 ; errors 0 ; warnings 5
+leanchecker exit 0
+AUDIT InteriorThree_TraceModes: constants 30, non-standard axiom uses 0 []
+### InteriorThree_TraceDescent  sha256 220161959a09073416f9baff4809527d36a32430899797be6ad9a0a354272f53
+build exit 0 ; errors 0 ; warnings 2
+leanchecker exit 0
+AUDIT InteriorThree_TraceDescent: constants 8, non-standard axiom uses 0 []
+### InteriorThree_TraceWiring  sha256 de5d948dfd8645d6ac69ae5523e22019d16c6be6ce3799a0c872a1ce2a232e82
+build exit 0 ; errors 0 ; warnings 0
+leanchecker exit 0
+AUDIT InteriorThree_TraceWiring: constants 10, non-standard axiom uses 0 []
+### headline
+@InteriorThreeTraceWiring.interiorThree_of_scalar_trace : ∀ {J K : ℕ},
+  InteriorThreeTraceDescent.ScalarTraceBound J → 8 * J ≤ 5 * K → 1 ≤ K → K ≤ 2 ^ 20 → MCAChallenge.InteriorThree K
+'InteriorThreeTraceWiring.interiorThree_of_scalar_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

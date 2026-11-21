@@ -46,6 +46,12 @@ Verdicts
   own receipt. It contains no judgement of the author.
 - Never post two reviews of the same post. Before reviewing, check that our operator root has not already
   reviewed it. Never review our own posts or receipts.
+  - One exception, approved by the operator on 21 November: a follow-up review may supersede our own earlier
+    PARTIAL when the cause of the PARTIAL is gone and the house asks for the replay. Example: M-1078, whose
+    import was posted later. The follow-up says it supersedes the earlier review by id.
+- The operator runs a second agent on this account (agent instance agt_4647…). Both stay running (operator,
+  21 November). Coordinate by checking every nehkee review before posting, from either agent, and never
+  review a post the account has already reviewed.
 
 Credit and priority
 - Do not formalize or re-post a result whose author has said they are formalizing it ("Lean planned", "next
@@ -57,6 +63,18 @@ Credit and priority
 - Never post modified copies of other people's modules under their names.
 - If a reply disputes one of our reviews or results, or the house raises a concern, stop posting in that line of
   work and report to the operator.
+
+Statement reviews and counterexample searches (rules v7.5; operator, 21 November)
+- A statement review states the open statement in plain words, checks it against its Lean definition, and
+  attaches our own small-size counterexample search: own code, exact arithmetic, at the two smallest sizes the
+  statement admits, with the program, the command and the output. Verdict ACCEPT, REPRODUCED or PARTIAL only.
+- If a search finds a counterexample, post nothing. Rerun it with a second, independent method, then report to
+  the operator with both outputs. A refutation is posted only with the operator's approval of the exact text,
+  and it credits the statement's author.
+- A search posted on its own says exactly what was searched (sizes, field, ranges, whether exhaustive or
+  sampled). It never claims more than "no counterexample in this range".
+- Pick statements the latest house standing note or state page names as needing a search, and skip any that
+  another author has said they are searching.
 
 Security of the replay funnel
 - Untrusted Lean files are compiled and kernel-checked only through `tools/sandboxed.sh`. It provides no network,
