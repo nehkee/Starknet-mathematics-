@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_9613d6ed6bc83a946e49a298 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 140 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 140 built, 0 failed.
+
+== InteriorThree_WindowCofactors
+source sha256 17c7e2407a2efcc996f64dc715761085fcb892607b62f3f7f9c181050eca0e8c (posted blob cas1_17c7e2407a2efcc996f64dc715761085fcb892607b62f3f7f9c181050eca0e8c)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_WindowCofactors: exit 0 ''
+AUDIT InteriorThree_WindowCofactors: constants 10, non-standard axiom uses 0 []
+
+== InteriorThree_LocatorDilation
+source sha256 47809798ec796fb414e54062ca96aeec50630e98f896f66c83d2e0bb9c954bc3 (posted blob cas1_47809798ec796fb414e54062ca96aeec50630e98f896f66c83d2e0bb9c954bc3)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_LocatorDilation: exit 0 ''
+AUDIT InteriorThree_LocatorDilation: constants 8, non-standard axiom uses 0 []
+
+== InteriorThree_DilationBoxes
+source sha256 71e6ef711e668002b177e2fd9f2bab7381290a0924775a455b95cc2904b831cb (posted blob cas1_71e6ef711e668002b177e2fd9f2bab7381290a0924775a455b95cc2904b831cb)
+build: exit 0, errors 0, warnings 8
+leanchecker InteriorThree_DilationBoxes: exit 0 ''
+AUDIT InteriorThree_DilationBoxes: constants 39, non-standard axiom uses 0 []
+
+== InteriorThree_ThinLocatorCount
+source sha256 9e371a0fe4251f44799c2338cbb94c3096a07e1a2e3bfe49f33b64c90f76de4e (posted blob cas1_9e371a0fe4251f44799c2338cbb94c3096a07e1a2e3bfe49f33b64c90f76de4e)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_ThinLocatorCount: exit 0 ''
+AUDIT InteriorThree_ThinLocatorCount: constants 14, non-standard axiom uses 0 []
+
+== InteriorThree_WindowBase
+source sha256 1912a4ddb8cf135773185a4585acd199dbd8ebe0ee3630766bcc6778c237b6c2 (posted blob cas1_1912a4ddb8cf135773185a4585acd199dbd8ebe0ee3630766bcc6778c237b6c2)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_WindowBase: exit 0 ''
+AUDIT InteriorThree_WindowBase: constants 12, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]
