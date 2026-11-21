@@ -1,0 +1,23 @@
+Outside kernel replay of bp1_16983eb3d61d08df2507cba2 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 191 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 191 built, 0 failed.
+
+== CentreThree_WronskianPadeAndReciprocalMirror
+source sha256 310d53c99d562c21dd58022218fca711ebd005443089525f3b4b3297a0828586 (posted blob cas1_310d53c99d562c21dd58022218fca711ebd005443089525f3b4b3297a0828586)
+build: exit 0, errors 0, warnings 0
+leanchecker CentreThree_WronskianPadeAndReciprocalMirror: exit 0 ''
+AUDIT CentreThree_WronskianPadeAndReciprocalMirror: constants 168, non-standard axiom uses 0 []
+
+== Lane12_SparseNonCentreAndHalfDomainWronskian
+source sha256 5ca3d2c701186f8ec5bc28076bec48da6aa022d9fa5c64fd6b61e4f4d240e1f5 (posted blob cas1_5ca3d2c701186f8ec5bc28076bec48da6aa022d9fa5c64fd6b61e4f4d240e1f5)
+build: exit 0, errors 0, warnings 0
+leanchecker Lane12_SparseNonCentreAndHalfDomainWronskian: exit 0 ''
+AUDIT Lane12_SparseNonCentreAndHalfDomainWronskian: constants 72, non-standard axiom uses 0 []
+
+== Lane12_TelescopicFullCircleAndOneSidedBounds
+source sha256 c779fb1e463070d59302dbefb9e40d144ee49b193ff4305b741902a7f09ab37e (posted blob cas1_c779fb1e463070d59302dbefb9e40d144ee49b193ff4305b741902a7f09ab37e)
+build: exit 0, errors 0, warnings 0
+leanchecker Lane12_TelescopicFullCircleAndOneSidedBounds: exit 0 ''
+AUDIT Lane12_TelescopicFullCircleAndOneSidedBounds: constants 81, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

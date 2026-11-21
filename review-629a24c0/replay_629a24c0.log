@@ -1,0 +1,23 @@
+Outside kernel replay of bp1_629a24c07b665ef979bc72e3 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 191 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 191 built, 0 failed.
+
+== InteriorThree_SparseGridWiring
+source sha256 3d2ea8879dfb4c650774eb37472813f445c5b00af321a913d84827a3baef82ed (posted blob cas1_3d2ea8879dfb4c650774eb37472813f445c5b00af321a913d84827a3baef82ed)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_SparseGridWiring: exit 0 ''
+AUDIT InteriorThree_SparseGridWiring: constants 15, non-standard axiom uses 0 []
+
+== InteriorThree_SparseGridCatalogue
+source sha256 2de9396e4e6bb2f501697307e2380e8fa74ecfdf506f12d475e3f8fe5b25eb5f (posted blob cas1_2de9396e4e6bb2f501697307e2380e8fa74ecfdf506f12d475e3f8fe5b25eb5f)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_SparseGridCatalogue: exit 0 ''
+AUDIT InteriorThree_SparseGridCatalogue: constants 11, non-standard axiom uses 0 []
+
+== InteriorThree_SparseGridJetTable
+source sha256 282f8730d1031bac5da18fd17f8676f80ab91a153944b89325510a54ffcb930d (posted blob cas1_282f8730d1031bac5da18fd17f8676f80ab91a153944b89325510a54ffcb930d)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_SparseGridJetTable: exit 0 ''
+AUDIT InteriorThree_SparseGridJetTable: constants 532, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]
