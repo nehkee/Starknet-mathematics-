@@ -1,0 +1,10 @@
+Part A: from_prefix + counting, every reached row and key, rule .blocks {}, index = id, identity relabelling
+  r=4 n=16: entries needed <= eligible masks <= good words <= 1144; B n = 2796192; holds: True
+  r=5 n=32: entries needed <= eligible masks <= good words <= 496248; B n = 5592384; holds: True
+Part B: every heavy mask at n = 16 covered by its own padded entry
+  weight 5: branch = T: 4368
+  weight 5: covered: 4368
+  weight 6: branch = T: 8008
+  weight 6: covered: 8008
+  distinct entries used (index = weight, head): 10849 for 12376 masks
+done
