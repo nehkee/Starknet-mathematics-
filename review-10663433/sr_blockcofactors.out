@@ -1,0 +1,13 @@
+Part A: counting bound, every reached row and key, rule .blocks {}
+  r=4 n=16: |I| <= #masks <= #good words <= 1144; C0 n = 2796192; holds: True
+  r=5 n=32: |I| <= #masks <= #good words <= 496248; C0 n = 5592384; holds: True
+Part B: all words with >= 10 agreements, degree <= 8, n = 16 over F_{p^2}
+  X^10: 56 words (all keys), so |I| <= 56 <= 2796192
+  X^11: 0 words (all keys), so |I| <= 0 <= 2796192
+  X^12: 132 words (all keys), so |I| <= 132 <= 2796192
+  X^13: 0 words (all keys), so |I| <= 0 <= 2796192
+  X^14: 56 words (all keys), so |I| <= 56 <= 2796192
+  X^9 + X^11 + X^15: 0 words (all keys), so |I| <= 0 <= 2796192
+  X^10 + X^14: 121 words (all keys), so |I| <= 121 <= 2796192
+  X^12 + X^13 + X^14: 0 words (all keys), so |I| <= 0 <= 2796192
+done
