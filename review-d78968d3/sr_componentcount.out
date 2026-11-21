@@ -1,0 +1,10 @@
+Part A: counting bound, every m in [5q, 7q], every key, any field
+  r=4 n=16: #words <= C(16,9)/C(10,9) = 1144; H n = 262144; holds: True
+  r=5 n=32: #words <= C(32,17)/C(20,17) = 496248; H n = 524288; holds: True
+Part B: exhaustive at n = 16 over F_{p^2}, p = 2^31 - 1
+  m=10: words 56, with B != 0: 0, keys with B != 0: 0, largest count of distinct B at one key: 0 (H n = 262144)
+  m=11: words 0, with B != 0: 0, keys with B != 0: 0, largest count of distinct B at one key: 0 (H n = 262144)
+  m=12: words 132, with B != 0: 96, keys with B != 0: 13, largest count of distinct B at one key: 48 (H n = 262144)
+  m=13: words 0, with B != 0: 0, keys with B != 0: 0, largest count of distinct B at one key: 0 (H n = 262144)
+  m=14: words 56, with B != 0: 0, keys with B != 0: 0, largest count of distinct B at one key: 0 (H n = 262144)
+done
