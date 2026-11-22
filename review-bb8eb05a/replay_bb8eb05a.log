@@ -1,0 +1,23 @@
+Outside kernel replay of bp1_bb8eb05a6882cd9b8c307b3a by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 203 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 203 built, 0 failed. Every .lean file attached to the post is built and checked, whether or not the headline module imports it.
+
+== InteriorThree_NativeGrid64Projection
+source sha256 de3c238dbff65ef45a514b03b35e053875945516cf1ec91730ed67d8948380a8 (posted blob cas1_de3c238dbff65ef45a514b03b35e053875945516cf1ec91730ed67d8948380a8)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_NativeGrid64Projection: exit 0 ''
+AUDIT InteriorThree_NativeGrid64Projection: constants 18, non-standard axiom uses 0 []
+
+== InteriorThree_NativeGrid64Tables
+source sha256 25da661afc9d6e18320df4419fef33d4d1ebe1da3ec7b4fcec350e9c88132e17 (posted blob cas1_25da661afc9d6e18320df4419fef33d4d1ebe1da3ec7b4fcec350e9c88132e17)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_NativeGrid64Tables: exit 0 ''
+AUDIT InteriorThree_NativeGrid64Tables: constants 11, non-standard axiom uses 0 []
+
+== InteriorThree_NativeGrid64Transfer
+source sha256 404728b78ae4f1b8067aaf610f3e4d8e9b938710c48aa2b117fd4a831a3a6de8 (posted blob cas1_404728b78ae4f1b8067aaf610f3e4d8e9b938710c48aa2b117fd4a831a3a6de8)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_NativeGrid64Transfer: exit 0 ''
+AUDIT InteriorThree_NativeGrid64Transfer: constants 4, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

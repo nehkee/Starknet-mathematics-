@@ -1,0 +1,41 @@
+Outside kernel replay of bp1_8d8543cfc54283a43a9ec2c6 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 203 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 203 built, 0 failed. Every .lean file attached to the post is built and checked, whether or not the headline module imports it.
+
+== InteriorThree_NativeMassCore
+source sha256 fd031ecfc684542a643930c3952e95decc4156ef5f7db8709c31d1b76b5b0cbb (posted blob cas1_fd031ecfc684542a643930c3952e95decc4156ef5f7db8709c31d1b76b5b0cbb)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_NativeMassCore: exit 0 ''
+AUDIT InteriorThree_NativeMassCore: constants 31, non-standard axiom uses 0 [] (audit file with import Lean added: the module itself does not import Lean)
+
+== InteriorThree_NativeMassCorrection
+source sha256 bc0487a58aeccaf94323eb04c0898e17329e69406cd01f5ea745c0f2d056d9b4 (posted blob cas1_bc0487a58aeccaf94323eb04c0898e17329e69406cd01f5ea745c0f2d056d9b4)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_NativeMassCorrection: exit 0 ''
+AUDIT InteriorThree_NativeMassCorrection: constants 4, non-standard axiom uses 0 [] (audit file with import Lean added: the module itself does not import Lean)
+
+== InteriorThree_NativeMassCarry
+source sha256 99862f746274bba400fc6600d51d2e81e0f2048f73ae2ac83ebcf9edd571b623 (posted blob cas1_99862f746274bba400fc6600d51d2e81e0f2048f73ae2ac83ebcf9edd571b623)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_NativeMassCarry: exit 0 ''
+AUDIT InteriorThree_NativeMassCarry: constants 36, non-standard axiom uses 0 []
+
+== InteriorThree_NativeMassStripes
+source sha256 8ce54f9c28da647bd16a2d7a1c65430d7308c1a9da72ef16e3b82efc7f00b6f1 (posted blob cas1_8ce54f9c28da647bd16a2d7a1c65430d7308c1a9da72ef16e3b82efc7f00b6f1)
+build: exit 0, errors 0, warnings 3
+leanchecker InteriorThree_NativeMassStripes: exit 0 ''
+AUDIT InteriorThree_NativeMassStripes: constants 40, non-standard axiom uses 0 []
+
+== InteriorThree_NativeMassBound
+source sha256 a2c5afb2bf01989925cb5623c8fdaeae50d50a295bafdfb381cbc7641574f05c (posted blob cas1_a2c5afb2bf01989925cb5623c8fdaeae50d50a295bafdfb381cbc7641574f05c)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_NativeMassBound: exit 0 ''
+AUDIT InteriorThree_NativeMassBound: constants 17, non-standard axiom uses 0 []
+
+== InteriorThree_NativeMassRows
+source sha256 2e64e02c57de9707963401a23fd040151032158ef6f5e4e3b80d3d5c2c9c9945 (posted blob cas1_2e64e02c57de9707963401a23fd040151032158ef6f5e4e3b80d3d5c2c9c9945)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_NativeMassRows: exit 0 ''
+AUDIT InteriorThree_NativeMassRows: constants 2, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

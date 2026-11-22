@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_5de0cf4bb381ebfd481982b0 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 203 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 203 built, 0 failed. Every .lean file attached to the post is built and checked, whether or not the headline module imports it.
+
+== InteriorThree_AgreementFourierWiring
+source sha256 d76b28c054fdb3252c5d51c013598bc8f068b05c88b3ff4280b638b40900c6ec (posted blob cas1_d76b28c054fdb3252c5d51c013598bc8f068b05c88b3ff4280b638b40900c6ec)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_AgreementFourierWiring: exit 0 ''
+AUDIT InteriorThree_AgreementFourierWiring: constants 16, non-standard axiom uses 0 []
+
+== InteriorThree_AgreementFourierCount
+source sha256 1565bbd21e7c0ce544fd11a80c706318ff613f566f07664e2151b747f4781920 (posted blob cas1_1565bbd21e7c0ce544fd11a80c706318ff613f566f07664e2151b747f4781920)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_AgreementFourierCount: exit 0 ''
+AUDIT InteriorThree_AgreementFourierCount: constants 4, non-standard axiom uses 0 []
+
+== InteriorThree_AgreementScore
+source sha256 b4339029cf54e540fa6e2a274e3638ad54382e3667d0abe9120e43f4d9bff649 (posted blob cas1_b4339029cf54e540fa6e2a274e3638ad54382e3667d0abe9120e43f4d9bff649)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_AgreementScore: exit 0 ''
+AUDIT InteriorThree_AgreementScore: constants 10, non-standard axiom uses 0 []
+
+== InteriorThree_AgreementPlane
+source sha256 ca2f3ed4dab517bdbde3642df2516cc3e0e99ffbaee4d381a053ff404c596ed8 (posted blob cas1_ca2f3ed4dab517bdbde3642df2516cc3e0e99ffbaee4d381a053ff404c596ed8)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_AgreementPlane: exit 0 ''
+AUDIT InteriorThree_AgreementPlane: constants 29, non-standard axiom uses 0 []
+
+== InteriorThree_AgreementCharacters
+source sha256 56756a2c2266bbace0bce6211e2b240cd3974279daf6a1610209613408881168 (posted blob cas1_56756a2c2266bbace0bce6211e2b240cd3974279daf6a1610209613408881168)
+build: exit 0, errors 0, warnings 4
+leanchecker InteriorThree_AgreementCharacters: exit 0 ''
+AUDIT InteriorThree_AgreementCharacters: constants 11, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]
