@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_649067df50f961982a81cef0 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 286 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 286 built, 0 failed.
+
+== InteriorThree_QuarticSupportWiring
+source sha256 489eda775bf74c40789f391a60f83f1651c196eb6a073b878cdce66432e9d32c (posted blob cas1_489eda775bf74c40789f391a60f83f1651c196eb6a073b878cdce66432e9d32c)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_QuarticSupportWiring: exit 0 ''
+AUDIT InteriorThree_QuarticSupportWiring: constants 13, non-standard axiom uses 0 []
+
+== InteriorThree_QuarticNativeClasses
+source sha256 c06fefb054b45dfb13a3cffe054ddd4f55488c17c40a6c43ca97a4733ff67a67 (posted blob cas1_c06fefb054b45dfb13a3cffe054ddd4f55488c17c40a6c43ca97a4733ff67a67)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_QuarticNativeClasses: exit 0 ''
+AUDIT InteriorThree_QuarticNativeClasses: constants 56, non-standard axiom uses 0 []
+
+== InteriorThree_QuarticEndpointHalf
+source sha256 648d976fadb9d32b9f4fb0954f395fd8e1bae1c6412acf3c542d528c67ad2170 (posted blob cas1_648d976fadb9d32b9f4fb0954f395fd8e1bae1c6412acf3c542d528c67ad2170)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_QuarticEndpointHalf: exit 0 ''
+AUDIT InteriorThree_QuarticEndpointHalf: constants 32, non-standard axiom uses 0 []
+
+== InteriorThree_QuarticGridCounts
+source sha256 211e45337ff7111600d3d10a87b647e3a6ccc7cdd2990eadc8f975a61c991da9 (posted blob cas1_211e45337ff7111600d3d10a87b647e3a6ccc7cdd2990eadc8f975a61c991da9)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_QuarticGridCounts: exit 0 ''
+AUDIT InteriorThree_QuarticGridCounts: constants 28, non-standard axiom uses 0 []
+
+== InteriorThree_QuarticOddCharts
+source sha256 ab78fc588d0e241783f6e69290889fe42c8e55145b077873b2261d16316dbbcd (posted blob cas1_ab78fc588d0e241783f6e69290889fe42c8e55145b077873b2261d16316dbbcd)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_QuarticOddCharts: exit 0 ''
+AUDIT InteriorThree_QuarticOddCharts: constants 21, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

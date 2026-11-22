@@ -1,0 +1,23 @@
+Outside kernel replay of bp1_481b8cccd2482ff0b88e52df by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 286 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 286 built, 0 failed.
+
+== InteriorThree_WordFrequencyWiring
+source sha256 f35c287f4d13e0f984362960efe23b8caec21a226635ca3eb014348a7a9b9d1c (posted blob cas1_f35c287f4d13e0f984362960efe23b8caec21a226635ca3eb014348a7a9b9d1c)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_WordFrequencyWiring: exit 0 ''
+AUDIT InteriorThree_WordFrequencyWiring: constants 8, non-standard axiom uses 0 []
+
+== InteriorThree_WordFrequencyMirror
+source sha256 8d076b8fe831c0fc57d83f450cc9344aa850b341c1e844c0255604c19671c1ab (posted blob cas1_8d076b8fe831c0fc57d83f450cc9344aa850b341c1e844c0255604c19671c1ab)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_WordFrequencyMirror: exit 0 ''
+AUDIT InteriorThree_WordFrequencyMirror: constants 21, non-standard axiom uses 0 []
+
+== InteriorThree_WordFrequencyExceptions
+source sha256 4af12f00ea7b1467ffc7d4781c13119814c5c16259f6c71a36bfde0d943d580a (posted blob cas1_4af12f00ea7b1467ffc7d4781c13119814c5c16259f6c71a36bfde0d943d580a)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_WordFrequencyExceptions: exit 0 ''
+AUDIT InteriorThree_WordFrequencyExceptions: constants 12, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

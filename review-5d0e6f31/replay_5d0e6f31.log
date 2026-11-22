@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_5d0e6f31913143f7d6751c0f by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 286 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 286 built, 0 failed.
+
+== InteriorThree_TripleBandWiring
+source sha256 5a25f49aaa8ba6f67a7f10ff9828b17e67cacd6d264fbf2cb2c669c84b92ccb8 (posted blob cas1_5a25f49aaa8ba6f67a7f10ff9828b17e67cacd6d264fbf2cb2c669c84b92ccb8)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_TripleBandWiring: exit 0 ''
+AUDIT InteriorThree_TripleBandWiring: constants 17, non-standard axiom uses 0 []
+
+== InteriorThree_TripleBandIntervals
+source sha256 ea7eaf8a61024ea8d29ea6497988da996e6ce96851da8599f232d84bf1d706ce (posted blob cas1_ea7eaf8a61024ea8d29ea6497988da996e6ce96851da8599f232d84bf1d706ce)
+build: exit 0, errors 0, warnings 11
+leanchecker InteriorThree_TripleBandIntervals: exit 0 ''
+AUDIT InteriorThree_TripleBandIntervals: constants 58, non-standard axiom uses 0 []
+
+== InteriorThree_TripleStartPacking
+source sha256 f93ab1c7bd88329cf2dfb2c5d51d6364ddf3afa3bfbe2423201d226c5b409264 (posted blob cas1_f93ab1c7bd88329cf2dfb2c5d51d6364ddf3afa3bfbe2423201d226c5b409264)
+build: exit 0, errors 0, warnings 4
+leanchecker InteriorThree_TripleStartPacking: exit 0 ''
+AUDIT InteriorThree_TripleStartPacking: constants 27, non-standard axiom uses 0 []
+
+== InteriorThree_TripleStartDensity
+source sha256 f64d3e7c7b607a9f6a0ee72014bd77ed95c90ccd4ce10811c8968e6a1bb902ff (posted blob cas1_f64d3e7c7b607a9f6a0ee72014bd77ed95c90ccd4ce10811c8968e6a1bb902ff)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_TripleStartDensity: exit 0 ''
+AUDIT InteriorThree_TripleStartDensity: constants 30, non-standard axiom uses 0 []
+
+== InteriorThree_TripleBandDeterminant
+source sha256 1065ce4ffc734b84e3c941ed798e54f68287016213513534a0ae59b039fda6a5 (posted blob cas1_1065ce4ffc734b84e3c941ed798e54f68287016213513534a0ae59b039fda6a5)
+build: exit 0, errors 0, warnings 4
+leanchecker InteriorThree_TripleBandDeterminant: exit 0 ''
+AUDIT InteriorThree_TripleBandDeterminant: constants 14, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

@@ -1,0 +1,23 @@
+Outside kernel replay of bp1_7816f8a9c0efe7de6e653c69 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 286 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 286 built, 0 failed.
+
+== InteriorThree_QuarticCoarseShape
+source sha256 604dddae2672f32ca0b212ae5e78806f4f1eb33a3701e2810e213ba0864c49df (posted blob cas1_604dddae2672f32ca0b212ae5e78806f4f1eb33a3701e2810e213ba0864c49df)
+build: exit 0, errors 0, warnings 6
+leanchecker InteriorThree_QuarticCoarseShape: exit 0 ''
+AUDIT InteriorThree_QuarticCoarseShape: constants 46, non-standard axiom uses 0 []
+
+== InteriorThree_QuarticCubeSound
+source sha256 79c4b6db573c1041599d4345f23ab865192197fcbad1acb363ae10b640b559cb (posted blob cas1_79c4b6db573c1041599d4345f23ab865192197fcbad1acb363ae10b640b559cb)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_QuarticCubeSound: exit 0 ''
+AUDIT InteriorThree_QuarticCubeSound: constants 81, non-standard axiom uses 0 []
+
+== InteriorThree_QuarticLineCheck
+source sha256 c8907102a72440bb43c1f833c33e6e6d1d03476f85f3af0624ef0aedd778da83 (posted blob cas1_c8907102a72440bb43c1f833c33e6e6d1d03476f85f3af0624ef0aedd778da83)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_QuarticLineCheck: exit 0 ''
+AUDIT InteriorThree_QuarticLineCheck: constants 42, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

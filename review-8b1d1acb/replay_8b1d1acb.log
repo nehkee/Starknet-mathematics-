@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_8b1d1acb59a0f25d14fb4474 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 286 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 286 built, 0 failed.
+
+== InteriorThree_MirrorGapWiring
+source sha256 180243c146ec1d44da675779e05c7b33838ebee0b44e87277e9662a511262ce7 (posted blob cas1_180243c146ec1d44da675779e05c7b33838ebee0b44e87277e9662a511262ce7)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_MirrorGapWiring: exit 0 ''
+AUDIT InteriorThree_MirrorGapWiring: constants 9, non-standard axiom uses 0 []
+
+== InteriorThree_MirrorGapWords
+source sha256 eb70d2625d5bf3fbe05edb8546d9b8681a67c94e8e352878c81d9fc595d4032e (posted blob cas1_eb70d2625d5bf3fbe05edb8546d9b8681a67c94e8e352878c81d9fc595d4032e)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_MirrorGapWords: exit 0 ''
+AUDIT InteriorThree_MirrorGapWords: constants 29, non-standard axiom uses 0 []
+
+== InteriorThree_MirrorGapElimination
+source sha256 05d2c68a69f4d2fb22f457ce9e13047ee07ce13a24545ed83756c01d4e3d6961 (posted blob cas1_05d2c68a69f4d2fb22f457ce9e13047ee07ce13a24545ed83756c01d4e3d6961)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_MirrorGapElimination: exit 0 ''
+AUDIT InteriorThree_MirrorGapElimination: constants 21, non-standard axiom uses 0 []
+
+== InteriorThree_MirrorGapGeometry
+source sha256 95f1f851836b9e836a7058675c80f7027d25631a2c46da96c4214df08feec6e9 (posted blob cas1_95f1f851836b9e836a7058675c80f7027d25631a2c46da96c4214df08feec6e9)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_MirrorGapGeometry: exit 0 ''
+AUDIT InteriorThree_MirrorGapGeometry: constants 24, non-standard axiom uses 0 []
+
+== InteriorThree_MirrorGapProjection
+source sha256 b52c6f7ab71b0887d1026a27ace3209119d006c59a2e494b44ffb960dcf866e9 (posted blob cas1_b52c6f7ab71b0887d1026a27ace3209119d006c59a2e494b44ffb960dcf866e9)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_MirrorGapProjection: exit 0 ''
+AUDIT InteriorThree_MirrorGapProjection: constants 5, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

@@ -1,0 +1,41 @@
+Outside kernel replay of bp1_d13b0bccc1283ba163e08b54 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 286 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 286 built, 0 failed.
+
+== InteriorThree_WordFrequencyCount
+source sha256 709a8e49edace9d7833b9b90901bd98360019ac5905c4a47213891398c4a27d2 (posted blob cas1_709a8e49edace9d7833b9b90901bd98360019ac5905c4a47213891398c4a27d2)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_WordFrequencyCount: exit 0 ''
+AUDIT InteriorThree_WordFrequencyCount: constants 15, non-standard axiom uses 0 []
+
+== InteriorThree_WordFrequencyChart
+source sha256 0e183f746eb8105febcf2ccff177e31b9bc43e547fcc87095b94abf68556b8d9 (posted blob cas1_0e183f746eb8105febcf2ccff177e31b9bc43e547fcc87095b94abf68556b8d9)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_WordFrequencyChart: exit 0 ''
+AUDIT InteriorThree_WordFrequencyChart: constants 29, non-standard axiom uses 0 []
+
+== InteriorThree_WordFrequencyCover
+source sha256 032a7f7cc6eea5b11284630af5ddbddad1a3548ee3f3ea594d411b2ea95b7ce2 (posted blob cas1_032a7f7cc6eea5b11284630af5ddbddad1a3548ee3f3ea594d411b2ea95b7ce2)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_WordFrequencyCover: exit 0 ''
+AUDIT InteriorThree_WordFrequencyCover: constants 19, non-standard axiom uses 0 []
+
+== InteriorThree_WordFrequencyApprox
+source sha256 6ab4a76d27cf38e81dceee047595295bef063162eaa534b6eda3c8450e847c19 (posted blob cas1_6ab4a76d27cf38e81dceee047595295bef063162eaa534b6eda3c8450e847c19)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_WordFrequencyApprox: exit 0 ''
+AUDIT InteriorThree_WordFrequencyApprox: constants 43, non-standard axiom uses 0 []
+
+== InteriorThree_WordFrequencyArc
+source sha256 3bc6560a52dedc8af588797bdff26d328bac0737f99b5f781118fdd89d847bbe (posted blob cas1_3bc6560a52dedc8af588797bdff26d328bac0737f99b5f781118fdd89d847bbe)
+build: exit 0, errors 0, warnings 3
+leanchecker InteriorThree_WordFrequencyArc: exit 0 ''
+AUDIT InteriorThree_WordFrequencyArc: constants 14, non-standard axiom uses 0 []
+
+== InteriorThree_WordFrequencySlots
+source sha256 0b34ae117ff69be51efe47d9c49c23867697606ba5cf21cc944a27ec4d32183f (posted blob cas1_0b34ae117ff69be51efe47d9c49c23867697606ba5cf21cc944a27ec4d32183f)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_WordFrequencySlots: exit 0 ''
+AUDIT InteriorThree_WordFrequencySlots: constants 17, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

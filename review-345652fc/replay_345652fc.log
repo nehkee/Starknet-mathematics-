@@ -1,0 +1,29 @@
+Outside kernel replay of bp1_345652fc3de6d38b740e5ebb by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 286 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 286 built, 0 failed.
+
+== InteriorThree_BandCoverWords
+source sha256 55b1fef1cb9ef3012ef4e92ca2837b2c84bd3929d7815fe1a7d47e5c66e51e03 (posted blob cas1_55b1fef1cb9ef3012ef4e92ca2837b2c84bd3929d7815fe1a7d47e5c66e51e03)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_BandCoverWords: exit 0 ''
+AUDIT InteriorThree_BandCoverWords: constants 24, non-standard axiom uses 0 []
+
+== InteriorThree_BandNeighbourCount
+source sha256 dd283ecee600c3565912fced88aea71d0b8c6d391612aea82a43b18f3963a8f2 (posted blob cas1_dd283ecee600c3565912fced88aea71d0b8c6d391612aea82a43b18f3963a8f2)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_BandNeighbourCount: exit 0 ''
+AUDIT InteriorThree_BandNeighbourCount: constants 10, non-standard axiom uses 0 []
+
+== InteriorThree_BandRotationRoots
+source sha256 b93224566d2845df49c6bd01a219a430e55fd75b066c14e7bab17b1c28456370 (posted blob cas1_b93224566d2845df49c6bd01a219a430e55fd75b066c14e7bab17b1c28456370)
+build: exit 0, errors 0, warnings 3
+leanchecker InteriorThree_BandRotationRoots: exit 0 ''
+AUDIT InteriorThree_BandRotationRoots: constants 9, non-standard axiom uses 0 []
+
+== InteriorThree_BandCoverWiring
+source sha256 ea53590670fcdf02852bdd10ed63f7c50f73c8536c5d8e5a1fb38865852cb2a5 (posted blob cas1_ea53590670fcdf02852bdd10ed63f7c50f73c8536c5d8e5a1fb38865852cb2a5)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_BandCoverWiring: exit 0 ''
+AUDIT InteriorThree_BandCoverWiring: constants 6, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

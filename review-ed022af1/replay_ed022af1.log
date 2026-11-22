@@ -1,0 +1,17 @@
+Outside kernel replay of bp1_ed022af127703f6d37273d9c by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 286 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 286 built, 0 failed.
+
+== InteriorThree_QuarticCubeCheck
+source sha256 619966f64759d9e2ed4042cdaf76b461314e640ba6ee9cb726700c2153606ecf (posted blob cas1_619966f64759d9e2ed4042cdaf76b461314e640ba6ee9cb726700c2153606ecf)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_QuarticCubeCheck: exit 0 ''
+AUDIT InteriorThree_QuarticCubeCheck: constants 246, non-standard axiom uses 0 []
+
+== InteriorThree_QuarticLineTable
+source sha256 9182034e487d34b0e2733cfb58cfe5e7b384c78c943a4709f7f9d3727d5217c7 (posted blob cas1_9182034e487d34b0e2733cfb58cfe5e7b384c78c943a4709f7f9d3727d5217c7)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_QuarticLineTable: exit 0 ''
+AUDIT InteriorThree_QuarticLineTable: constants 751, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

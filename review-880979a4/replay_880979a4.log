@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_880979a4cf833f130d81e0e6 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 286 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 286 built, 0 failed.
+
+== InteriorThree_CircleFraction
+source sha256 e545fd52d0ac14dcd7d235135369061507053b066d911249fe44e4c70683ff16 (posted blob cas1_e545fd52d0ac14dcd7d235135369061507053b066d911249fe44e4c70683ff16)
+build: exit 0, errors 0, warnings 3
+leanchecker InteriorThree_CircleFraction: exit 0 ''
+AUDIT InteriorThree_CircleFraction: constants 27, non-standard axiom uses 0 []
+
+== InteriorThree_CircleDecoder
+source sha256 fe067900e4f459ea638a19be6c644f9ba0e9e13654660abab0da60fa684e00f6 (posted blob cas1_fe067900e4f459ea638a19be6c644f9ba0e9e13654660abab0da60fa684e00f6)
+build: exit 0, errors 0, warnings 14
+leanchecker InteriorThree_CircleDecoder: exit 0 ''
+AUDIT InteriorThree_CircleDecoder: constants 34, non-standard axiom uses 0 []
+
+== InteriorThree_CircleNative
+source sha256 6d69b06aed852de0e8c1883b048d8b2859ac70d2e8ff6a0719bfdc39f478ab68 (posted blob cas1_6d69b06aed852de0e8c1883b048d8b2859ac70d2e8ff6a0719bfdc39f478ab68)
+build: exit 0, errors 0, warnings 4
+leanchecker InteriorThree_CircleNative: exit 0 ''
+AUDIT InteriorThree_CircleNative: constants 11, non-standard axiom uses 0 []
+
+== InteriorThree_CircleWelch
+source sha256 8110ee6a285daaae11cc8ced3e6cb523237d68f07b8cc7604db9f2bd2c948493 (posted blob cas1_8110ee6a285daaae11cc8ced3e6cb523237d68f07b8cc7604db9f2bd2c948493)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_CircleWelch: exit 0 ''
+AUDIT InteriorThree_CircleWelch: constants 18, non-standard axiom uses 0 []
+
+== InteriorThree_CircleLists
+source sha256 90757b0ab45dbae81fb1eac58a741f3f79781ac089516dfafae94de6036e7727 (posted blob cas1_90757b0ab45dbae81fb1eac58a741f3f79781ac089516dfafae94de6036e7727)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_CircleLists: exit 0 ''
+AUDIT InteriorThree_CircleLists: constants 16, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

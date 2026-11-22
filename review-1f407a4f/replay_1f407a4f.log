@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_1f407a4fc5574338fecb2463 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 286 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 286 built, 0 failed.
+
+== InteriorThree_QuarterPeerLists
+source sha256 eebb9953b50454b2ccf03e755b4a327d986ba26a7d55c30198173682ced8fb28 (posted blob cas1_eebb9953b50454b2ccf03e755b4a327d986ba26a7d55c30198173682ced8fb28)
+build: exit 0, errors 0, warnings 4
+leanchecker InteriorThree_QuarterPeerLists: exit 0 ''
+AUDIT InteriorThree_QuarterPeerLists: constants 19, non-standard axiom uses 0 []
+
+== InteriorThree_QuarterPeerFibre
+source sha256 1c85bc236438074da66d7048ae72b4c6b15181012e19604687340f04c0ff1315 (posted blob cas1_1c85bc236438074da66d7048ae72b4c6b15181012e19604687340f04c0ff1315)
+build: exit 0, errors 0, warnings 3
+leanchecker InteriorThree_QuarterPeerFibre: exit 0 ''
+AUDIT InteriorThree_QuarterPeerFibre: constants 9, non-standard axiom uses 0 []
+
+== InteriorThree_QuarterPeerCharts
+source sha256 ed340fadd243791ac2763dab9827ac57400eb9bce4e170b904a970d8c7655cc7 (posted blob cas1_ed340fadd243791ac2763dab9827ac57400eb9bce4e170b904a970d8c7655cc7)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_QuarterPeerCharts: exit 0 ''
+AUDIT InteriorThree_QuarterPeerCharts: constants 7, non-standard axiom uses 0 []
+
+== InteriorThree_QuarterPeerCover
+source sha256 8cff8994ceebf97fc170e6d05e8d35a6e51514822f462b5db16deb10b3b8ba85 (posted blob cas1_8cff8994ceebf97fc170e6d05e8d35a6e51514822f462b5db16deb10b3b8ba85)
+build: exit 0, errors 0, warnings 4
+leanchecker InteriorThree_QuarterPeerCover: exit 0 ''
+AUDIT InteriorThree_QuarterPeerCover: constants 17, non-standard axiom uses 0 []
+
+== InteriorThree_QuarterPeerWiring
+source sha256 731d3a791b0f1801f1ec19d4702c1d31d94ca10ac6df998246475771c1d338c9 (posted blob cas1_731d3a791b0f1801f1ec19d4702c1d31d94ca10ac6df998246475771c1d338c9)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_QuarterPeerWiring: exit 0 ''
+AUDIT InteriorThree_QuarterPeerWiring: constants 6, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

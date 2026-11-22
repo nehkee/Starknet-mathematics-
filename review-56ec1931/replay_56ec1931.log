@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_56ec193131c1f5f6d64617f3 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 286 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 286 built, 0 failed.
+
+== InteriorThree_SwapLayers
+source sha256 2b609c058ab6412052a6b94201b2744476addceb3c8507ae76b1317d54dcb209 (posted blob cas1_2b609c058ab6412052a6b94201b2744476addceb3c8507ae76b1317d54dcb209)
+build: exit 0, errors 0, warnings 8
+leanchecker InteriorThree_SwapLayers: exit 0 ''
+AUDIT InteriorThree_SwapLayers: constants 20, non-standard axiom uses 0 []
+
+== InteriorThree_SwapBlocks
+source sha256 4863773c252d47e385585b1001dafaff8a75b477cf787b733bc5926ea5b34ff5 (posted blob cas1_4863773c252d47e385585b1001dafaff8a75b477cf787b733bc5926ea5b34ff5)
+build: exit 0, errors 0, warnings 6
+leanchecker InteriorThree_SwapBlocks: exit 0 ''
+AUDIT InteriorThree_SwapBlocks: constants 22, non-standard axiom uses 0 []
+
+== InteriorThree_SwapDivisor
+source sha256 4e9249c8c00d4cadef19890c013fd83bf6d07a21eb171b854f001656fb5c5e4c (posted blob cas1_4e9249c8c00d4cadef19890c013fd83bf6d07a21eb171b854f001656fb5c5e4c)
+build: exit 0, errors 0, warnings 7
+leanchecker InteriorThree_SwapDivisor: exit 0 ''
+AUDIT InteriorThree_SwapDivisor: constants 23, non-standard axiom uses 0 []
+
+== InteriorThree_SwapCount
+source sha256 e23ed688d9986ec4071e5a54d057d5f9e2d25fa349de509f96403f759753acd4 (posted blob cas1_e23ed688d9986ec4071e5a54d057d5f9e2d25fa349de509f96403f759753acd4)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_SwapCount: exit 0 ''
+AUDIT InteriorThree_SwapCount: constants 7, non-standard axiom uses 0 []
+
+== InteriorThree_SwapProfiles
+source sha256 8ff50278896fc6ec69396679473456a3d8ccf3bc459e06acbcc4e0aa77d3bcbf (posted blob cas1_8ff50278896fc6ec69396679473456a3d8ccf3bc459e06acbcc4e0aa77d3bcbf)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_SwapProfiles: exit 0 ''
+AUDIT InteriorThree_SwapProfiles: constants 22, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

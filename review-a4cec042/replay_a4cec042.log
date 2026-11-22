@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_a4cec04268e3043cd5d5a015 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 286 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 286 built, 0 failed.
+
+== InteriorThree_WordStridePacking
+source sha256 aace25069282b771eb8da49b91cd3295db966ace66b5c90277304c182eef285b (posted blob cas1_aace25069282b771eb8da49b91cd3295db966ace66b5c90277304c182eef285b)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_WordStridePacking: exit 0 ''
+AUDIT InteriorThree_WordStridePacking: constants 29, non-standard axiom uses 0 []
+
+== InteriorThree_WordStrideClasses
+source sha256 e85851c1d63070162a7b7b666fc418388098305caf55bb28081d7022681550ea (posted blob cas1_e85851c1d63070162a7b7b666fc418388098305caf55bb28081d7022681550ea)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_WordStrideClasses: exit 0 ''
+AUDIT InteriorThree_WordStrideClasses: constants 34, non-standard axiom uses 0 []
+
+== InteriorThree_WordGridTransversal
+source sha256 2bec20b299cb22b6807abf13332ca266c34ce80770245ed13d50252eef0a2013 (posted blob cas1_2bec20b299cb22b6807abf13332ca266c34ce80770245ed13d50252eef0a2013)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_WordGridTransversal: exit 0 ''
+AUDIT InteriorThree_WordGridTransversal: constants 24, non-standard axiom uses 0 []
+
+== InteriorThree_WordGridChannels
+source sha256 e02ca8d41ccc591913a971a8a7bf6227c8f8122a2740776dcedf822e03ad227d (posted blob cas1_e02ca8d41ccc591913a971a8a7bf6227c8f8122a2740776dcedf822e03ad227d)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_WordGridChannels: exit 0 ''
+AUDIT InteriorThree_WordGridChannels: constants 6, non-standard axiom uses 0 []
+
+== InteriorThree_WordStrideWiring
+source sha256 37bbda3a4db6ba10ce8a085d9d89ef7c3776c85deb38c43b5f362c378dbcd77f (posted blob cas1_37bbda3a4db6ba10ce8a085d9d89ef7c3776c85deb38c43b5f362c378dbcd77f)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_WordStrideWiring: exit 0 ''
+AUDIT InteriorThree_WordStrideWiring: constants 6, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]
