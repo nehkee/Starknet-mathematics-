@@ -1,0 +1,17 @@
+Outside kernel replay of bp1_04174e57bffcccbc5213b3aa by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 215 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 215 built, 0 failed. Every .lean file attached to the post is built and checked, whether or not the headline module imports it.
+
+== InteriorThree_WindowMajorityRotation
+source sha256 55de915ac7f859f23c9a4bad4dad8f72973342301792e91108435d5e48b9b620 (posted blob cas1_55de915ac7f859f23c9a4bad4dad8f72973342301792e91108435d5e48b9b620)
+build: exit 0, errors 0, warnings 3
+leanchecker InteriorThree_WindowMajorityRotation: exit 0 ''
+AUDIT InteriorThree_WindowMajorityRotation: constants 16, non-standard axiom uses 0 []
+
+== InteriorThree_WindowMajorityScore
+source sha256 95febff951c302c33df20f8ef54a57942b92091b4fdda73b57f7b3223bc770c4 (posted blob cas1_95febff951c302c33df20f8ef54a57942b92091b4fdda73b57f7b3223bc770c4)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_WindowMajorityScore: exit 0 ''
+AUDIT InteriorThree_WindowMajorityScore: constants 5, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_389d6ac6f12e657d8f09ede2 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 215 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 215 built, 0 failed. Every .lean file attached to the post is built and checked, whether or not the headline module imports it.
+
+== InteriorThree_WindowMajorityPacking
+source sha256 e9314f4f3eaa96822165b5d742b43f0159417e36f5eca7b9980cf74fde30a6ce (posted blob cas1_e9314f4f3eaa96822165b5d742b43f0159417e36f5eca7b9980cf74fde30a6ce)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_WindowMajorityPacking: exit 0 ''
+AUDIT InteriorThree_WindowMajorityPacking: constants 9, non-standard axiom uses 0 []
+
+== InteriorThree_WindowMajorityMoment
+source sha256 2520fe51ef130a7203ddcd720bbe18aa1dcb8c7888ccf8fa395ef1d5c9917106 (posted blob cas1_2520fe51ef130a7203ddcd720bbe18aa1dcb8c7888ccf8fa395ef1d5c9917106)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_WindowMajorityMoment: exit 0 ''
+AUDIT InteriorThree_WindowMajorityMoment: constants 13, non-standard axiom uses 0 []
+
+== InteriorThree_WindowMajorityIncidence
+source sha256 f0c0881d46f3099cae9576a84ff7851e14402f4cec114cfdde6dfe2d1b89da2d (posted blob cas1_f0c0881d46f3099cae9576a84ff7851e14402f4cec114cfdde6dfe2d1b89da2d)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_WindowMajorityIncidence: exit 0 ''
+AUDIT InteriorThree_WindowMajorityIncidence: constants 7, non-standard axiom uses 0 []
+
+== InteriorThree_WindowMajorityGrid
+source sha256 13c771f3114b864430fed1ee010ce1eb2cdf1cdcc7b477e07c02af8db20013ba (posted blob cas1_13c771f3114b864430fed1ee010ce1eb2cdf1cdcc7b477e07c02af8db20013ba)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_WindowMajorityGrid: exit 0 ''
+AUDIT InteriorThree_WindowMajorityGrid: constants 15, non-standard axiom uses 0 []
+
+== InteriorThree_WindowMajorityWiring
+source sha256 005a84a885e1e6a694813a144a72e49b3845c31b7cfab9867210eaa1294967e2 (posted blob cas1_005a84a885e1e6a694813a144a72e49b3845c31b7cfab9867210eaa1294967e2)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_WindowMajorityWiring: exit 0 ''
+AUDIT InteriorThree_WindowMajorityWiring: constants 16, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

@@ -1,0 +1,41 @@
+Outside kernel replay of bp1_f90100da1c245c9db4ad2622 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 215 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 215 built, 0 failed. Every .lean file attached to the post is built and checked, whether or not the headline module imports it.
+
+== InteriorThree_SevenModeNormalization
+source sha256 0544ff8f22d8b925a708ddbcaa792bc5a3f7efc0592d7c1378d38783155b1be0 (posted blob cas1_0544ff8f22d8b925a708ddbcaa792bc5a3f7efc0592d7c1378d38783155b1be0)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_SevenModeNormalization: exit 0 ''
+AUDIT InteriorThree_SevenModeNormalization: constants 16, non-standard axiom uses 0 []
+
+== InteriorThree_SevenModeSamples
+source sha256 f582126d7846fe2453b0f505e0ded2fcb57b61329b6e5a2095f6191b5c400188 (posted blob cas1_f582126d7846fe2453b0f505e0ded2fcb57b61329b6e5a2095f6191b5c400188)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_SevenModeSamples: exit 0 ''
+AUDIT InteriorThree_SevenModeSamples: constants 24, non-standard axiom uses 0 []
+
+== InteriorThree_SevenModeFolds
+source sha256 297d152dca6adc485c343a97fdc543430d5396bd5b63e4931f4970920982fb88 (posted blob cas1_297d152dca6adc485c343a97fdc543430d5396bd5b63e4931f4970920982fb88)
+build: exit 0, errors 0, warnings 3
+leanchecker InteriorThree_SevenModeFolds: exit 0 ''
+AUDIT InteriorThree_SevenModeFolds: constants 20, non-standard axiom uses 0 []
+
+== InteriorThree_SevenModeMinor
+source sha256 a8bfa8e2684aca8ab89d4ceaea579715f29ef410149493d156b19951ff96af59 (posted blob cas1_a8bfa8e2684aca8ab89d4ceaea579715f29ef410149493d156b19951ff96af59)
+build: exit 0, errors 0, warnings 3
+leanchecker InteriorThree_SevenModeMinor: exit 0 ''
+AUDIT InteriorThree_SevenModeMinor: constants 14, non-standard axiom uses 0 []
+
+== InteriorThree_SevenModeParity
+source sha256 166c2c7c117ddc3d519e83adf71f6417dc59597085f5c9ea9ae9cc666190bfaf (posted blob cas1_166c2c7c117ddc3d519e83adf71f6417dc59597085f5c9ea9ae9cc666190bfaf)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_SevenModeParity: exit 0 ''
+AUDIT InteriorThree_SevenModeParity: constants 15, non-standard axiom uses 0 []
+
+== InteriorThree_SevenModeChart
+source sha256 ada65b5fa636e147dc9754e3a184bfedb51a708808d105f5a066fc608b0d8755 (posted blob cas1_ada65b5fa636e147dc9754e3a184bfedb51a708808d105f5a066fc608b0d8755)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_SevenModeChart: exit 0 ''
+AUDIT InteriorThree_SevenModeChart: constants 39, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]
