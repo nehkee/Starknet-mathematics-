@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_2af63b5c8170ee4fe944d23f by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 279 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 279 built, 0 failed. Every .lean file attached to the post is built and checked, whether or not the headline module imports it.
+
+== InteriorThree_AliasWiring
+source sha256 9fa6ef513c74bd891ed5f0c55439c6011163f087643edda1bdc264fa5aab3d11 (posted blob cas1_9fa6ef513c74bd891ed5f0c55439c6011163f087643edda1bdc264fa5aab3d11)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_AliasWiring: exit 0 ''
+AUDIT InteriorThree_AliasWiring: constants 19, non-standard axiom uses 0 []
+
+== InteriorThree_AliasTail
+source sha256 35600b9f26d72e07de85800100a76a4410b314074243920467af42afb9d98dcb (posted blob cas1_35600b9f26d72e07de85800100a76a4410b314074243920467af42afb9d98dcb)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_AliasTail: exit 0 ''
+AUDIT InteriorThree_AliasTail: constants 21, non-standard axiom uses 0 []
+
+== InteriorThree_AliasInterpolation
+source sha256 91523d9053c95edd2d7e7010abf659e3f613d59e9cb14923f11e054e845005ff (posted blob cas1_91523d9053c95edd2d7e7010abf659e3f613d59e9cb14923f11e054e845005ff)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_AliasInterpolation: exit 0 ''
+AUDIT InteriorThree_AliasInterpolation: constants 8, non-standard axiom uses 0 []
+
+== InteriorThree_AliasFibres
+source sha256 29f73ddece2991cc935b153b0da4889b88bf2d1d8af9b7cb127d27283cd7daa0 (posted blob cas1_29f73ddece2991cc935b153b0da4889b88bf2d1d8af9b7cb127d27283cd7daa0)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_AliasFibres: exit 0 ''
+AUDIT InteriorThree_AliasFibres: constants 15, non-standard axiom uses 0 []
+
+== InteriorThree_AliasModel
+source sha256 25df4761a6f2fea25e4ccc6488a4793dc6827511d3efdff61f18daf9851b7259 (posted blob cas1_25df4761a6f2fea25e4ccc6488a4793dc6827511d3efdff61f18daf9851b7259)
+build: exit 0, errors 0, warnings 3
+leanchecker InteriorThree_AliasModel: exit 0 ''
+AUDIT InteriorThree_AliasModel: constants 13, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

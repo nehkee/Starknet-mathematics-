@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_bb89fa12e7c942dc4a564d98 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 279 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 279 built, 0 failed. Every .lean file attached to the post is built and checked, whether or not the headline module imports it.
+
+== InteriorThree_TwoResidueWiring
+source sha256 6fd9faa2c9f1d0bbfa42cae61c4b7535c2301610e6626f07127fd75844e4c39b (posted blob cas1_6fd9faa2c9f1d0bbfa42cae61c4b7535c2301610e6626f07127fd75844e4c39b)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_TwoResidueWiring: exit 0 ''
+AUDIT InteriorThree_TwoResidueWiring: constants 8, non-standard axiom uses 0 []
+
+== InteriorThree_TwoResidueCosts
+source sha256 562f12fe39a14febf199b3092eff90bfbdbc3cd48faf0bed3b7fd81ca5493be0 (posted blob cas1_562f12fe39a14febf199b3092eff90bfbdbc3cd48faf0bed3b7fd81ca5493be0)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_TwoResidueCosts: exit 0 ''
+AUDIT InteriorThree_TwoResidueCosts: constants 11, non-standard axiom uses 0 []
+
+== InteriorThree_TwoResiduePairs
+source sha256 3a53fd0353befeca985644b7dfdbf0525c94fd933e3d8b6114b007104491d9f5 (posted blob cas1_3a53fd0353befeca985644b7dfdbf0525c94fd933e3d8b6114b007104491d9f5)
+build: exit 0, errors 0, warnings 4
+leanchecker InteriorThree_TwoResiduePairs: exit 0 ''
+AUDIT InteriorThree_TwoResiduePairs: constants 13, non-standard axiom uses 0 []
+
+== InteriorThree_TwoResiduePacking
+source sha256 7e67b766662bdf2816b984ed75ba55ec60b2d77c0edaaa5e3dd18862562123a4 (posted blob cas1_7e67b766662bdf2816b984ed75ba55ec60b2d77c0edaaa5e3dd18862562123a4)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_TwoResiduePacking: exit 0 ''
+AUDIT InteriorThree_TwoResiduePacking: constants 15, non-standard axiom uses 0 []
+
+== InteriorThree_TwoResidueChannels
+source sha256 3ac3906b8124d45ab9edc6c9ffd90ee7004ce804cd500217ee7a2c46390af69d (posted blob cas1_3ac3906b8124d45ab9edc6c9ffd90ee7004ce804cd500217ee7a2c46390af69d)
+build: exit 0, errors 0, warnings 5
+leanchecker InteriorThree_TwoResidueChannels: exit 0 ''
+AUDIT InteriorThree_TwoResidueChannels: constants 21, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

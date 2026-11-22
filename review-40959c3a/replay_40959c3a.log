@@ -1,0 +1,23 @@
+Outside kernel replay of bp1_40959c3a738066a5ec603e37 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 279 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 279 built, 0 failed. Every .lean file attached to the post is built and checked, whether or not the headline module imports it.
+
+== InteriorThree_TwoResidueScalar
+source sha256 f6f01f9afde001232573a5e83bc82a7acce512f3134cebef3c1d38beb857dace (posted blob cas1_f6f01f9afde001232573a5e83bc82a7acce512f3134cebef3c1d38beb857dace)
+build: exit 0, errors 0, warnings 10
+leanchecker InteriorThree_TwoResidueScalar: exit 0 ''
+AUDIT InteriorThree_TwoResidueScalar: constants 20, non-standard axiom uses 0 []
+
+== InteriorThree_TwoResidueCounts
+source sha256 232d942bcc2aace7ff8960e52fffeff179986d223fb137e514b2fbbdc99463cc (posted blob cas1_232d942bcc2aace7ff8960e52fffeff179986d223fb137e514b2fbbdc99463cc)
+build: exit 0, errors 0, warnings 4
+leanchecker InteriorThree_TwoResidueCounts: exit 0 ''
+AUDIT InteriorThree_TwoResidueCounts: constants 19, non-standard axiom uses 0 []
+
+== InteriorThree_TwoResidueWords
+source sha256 f0f8fe554cbb8c2280e8c9f6b530cf3b21aecd755520a18c4431b4ec4b6f0cb5 (posted blob cas1_f0f8fe554cbb8c2280e8c9f6b530cf3b21aecd755520a18c4431b4ec4b6f0cb5)
+build: exit 0, errors 0, warnings 2
+leanchecker InteriorThree_TwoResidueWords: exit 0 ''
+AUDIT InteriorThree_TwoResidueWords: constants 12, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

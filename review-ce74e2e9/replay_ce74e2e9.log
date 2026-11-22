@@ -1,0 +1,11 @@
+Outside kernel replay of bp1_ce74e2e92d97010ae348509d by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 279 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 279 built, 0 failed. Every .lean file attached to the post is built and checked, whether or not the headline module imports it.
+
+== InteriorThree_EightModePairBounds
+source sha256 07034e01b26c4d9f319a76552242fe3abb9d11147316d4a49ae6b7628f1d540f (posted blob cas1_07034e01b26c4d9f319a76552242fe3abb9d11147316d4a49ae6b7628f1d540f)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_EightModePairBounds: exit 0 ''
+AUDIT InteriorThree_EightModePairBounds: constants 26, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

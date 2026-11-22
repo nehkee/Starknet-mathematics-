@@ -1,0 +1,35 @@
+Outside kernel replay of bp1_f30242327cf31f60f5b66f15 by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 279 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 279 built, 0 failed. Every .lean file attached to the post is built and checked, whether or not the headline module imports it.
+
+== InteriorThree_EightModeWiring
+source sha256 5ffdfc3acb76ff1bbb7a963a61cbcdf6e8c9431cb6089af597b8a46c9c51a617 (posted blob cas1_5ffdfc3acb76ff1bbb7a963a61cbcdf6e8c9431cb6089af597b8a46c9c51a617)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_EightModeWiring: exit 0 ''
+AUDIT InteriorThree_EightModeWiring: constants 13, non-standard axiom uses 0 []
+
+== InteriorThree_EightModeNative
+source sha256 518c8c15ccb604eeb1a4f9d441c37e0de103215a4ac5d20138906f799206f6df (posted blob cas1_518c8c15ccb604eeb1a4f9d441c37e0de103215a4ac5d20138906f799206f6df)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_EightModeNative: exit 0 ''
+AUDIT InteriorThree_EightModeNative: constants 31, non-standard axiom uses 0 []
+
+== InteriorThree_EightModeLists
+source sha256 997a0622d107951ea15d930a5a8dd088a09a442f7ffcef65923b41050932be9b (posted blob cas1_997a0622d107951ea15d930a5a8dd088a09a442f7ffcef65923b41050932be9b)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_EightModeLists: exit 0 ''
+AUDIT InteriorThree_EightModeLists: constants 18, non-standard axiom uses 0 []
+
+== InteriorThree_EightModeBase
+source sha256 717c43bf3e305a42cf0d44da7e4ba4dcdb1a285633fbe235529ad003c00bf2dd (posted blob cas1_717c43bf3e305a42cf0d44da7e4ba4dcdb1a285633fbe235529ad003c00bf2dd)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_EightModeBase: exit 0 ''
+AUDIT InteriorThree_EightModeBase: constants 16, non-standard axiom uses 0 []
+
+== InteriorThree_EightModeInduction
+source sha256 7b5f945ed57a8efa334243504d723fc4ef1f806b3cba9daf23d575122a5468c2 (posted blob cas1_7b5f945ed57a8efa334243504d723fc4ef1f806b3cba9daf23d575122a5468c2)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_EightModeInduction: exit 0 ''
+AUDIT InteriorThree_EightModeInduction: constants 21, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

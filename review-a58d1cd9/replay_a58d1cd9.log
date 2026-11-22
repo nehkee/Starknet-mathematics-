@@ -1,0 +1,41 @@
+Outside kernel replay of bp1_a58d1cd9524f97a86cd5e27f by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 279 modules, each resolved to its newest posted blob and sha256-checked against its blob id; built in dependency order: 279 built, 0 failed. Every .lean file attached to the post is built and checked, whether or not the headline module imports it.
+
+== InteriorThree_EightModeFourHalves
+source sha256 795c26567bc1c60ebf30862fd6137623fbb06707c0eab0b136c4836197ecd758 (posted blob cas1_795c26567bc1c60ebf30862fd6137623fbb06707c0eab0b136c4836197ecd758)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_EightModeFourHalves: exit 0 ''
+AUDIT InteriorThree_EightModeFourHalves: constants 22, non-standard axiom uses 0 []
+
+== InteriorThree_EightModeFourProfile
+source sha256 9a4425fa5c972b47b098be02b5b1dc014efd4bc35b38c0f96646b78dfa525ad1 (posted blob cas1_9a4425fa5c972b47b098be02b5b1dc014efd4bc35b38c0f96646b78dfa525ad1)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_EightModeFourProfile: exit 0 ''
+AUDIT InteriorThree_EightModeFourProfile: constants 26, non-standard axiom uses 0 []
+
+== InteriorThree_EightModeMajority
+source sha256 8929198ced34dfea294040c965d4350722a2f2908420620d0bf74b755e03650c (posted blob cas1_8929198ced34dfea294040c965d4350722a2f2908420620d0bf74b755e03650c)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_EightModeMajority: exit 0 ''
+AUDIT InteriorThree_EightModeMajority: constants 16, non-standard axiom uses 0 []
+
+== InteriorThree_EightModeComplete
+source sha256 06cc747751a92369602a4ae6572e301d10615ccc1488e3147d1b5362af07f371 (posted blob cas1_06cc747751a92369602a4ae6572e301d10615ccc1488e3147d1b5362af07f371)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_EightModeComplete: exit 0 ''
+AUDIT InteriorThree_EightModeComplete: constants 11, non-standard axiom uses 0 []
+
+== InteriorThree_EightModeGauge
+source sha256 cf8c6707671964c4db3d101564fb1cce1ffc9294b2acca7954f8d5fd094719eb (posted blob cas1_cf8c6707671964c4db3d101564fb1cce1ffc9294b2acca7954f8d5fd094719eb)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_EightModeGauge: exit 0 ''
+AUDIT InteriorThree_EightModeGauge: constants 13, non-standard axiom uses 0 []
+
+== InteriorThree_EightModePencil
+source sha256 7c954739cf58152f16963acbe1b71573f3eba16648361d9bc83384c1cc0b456b (posted blob cas1_7c954739cf58152f16963acbe1b71573f3eba16648361d9bc83384c1cc0b456b)
+build: exit 0, errors 0, warnings 6
+leanchecker InteriorThree_EightModePencil: exit 0 ''
+AUDIT InteriorThree_EightModePencil: constants 17, non-standard axiom uses 0 []
+
+== sorry control (theorem sorryControl : 1 = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]
