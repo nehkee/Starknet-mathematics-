@@ -1,0 +1,10 @@
+p = 2^31-1, F_(p^2) = F_p[i]/(i^2+1), generator of mu_(2^31): (1 + 2 i)^(p-1)
+n=16 k=8 l=10 agreement>=10: brute force 0 words, gap reduction 0 words (8008 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=8 l=11 agreement>=10: brute force 0 words, gap reduction 0 words (12376 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=8 l=12 agreement>=9: brute force 0 words, gap reduction 0 words (25636 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=6 l=8 agreement>=7: brute force 38 words, gap reduction 38 words (24310 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=6 l=10 agreement>=7: brute force 10 words, gap reduction 10 words (43758 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=6 l=12 agreement>=8: brute force 6 words, gap reduction 6 words (38506 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=6 l=13 agreement>=7: brute force 38 words, gap reduction 38 words (50506 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=4 l=9 agreement>=5: brute force 2 words, gap reduction 2 words (48126 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=4 l=11 agreement>=6: brute force 2 words, gap reduction 2 words (56134 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
