@@ -1,0 +1,2 @@
+mask 1111111111111111: deg P = 34, agreement 48, exact error set: True, valid: True
+verify n=64 k=40 l=50 b=16: 1 candidates, invalid 0

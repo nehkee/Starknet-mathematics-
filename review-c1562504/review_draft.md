@@ -26,7 +26,7 @@ So n* = 64, with admissible l ∈ {41, 42, 43}. Everything below is at n* = 64, 
   - The seed's equations leave a one-parameter line of locators. Every parameter at which b points of D are roots gives a candidate error set.
   - So each seed finds every error set B that contains it. A singular system falls back to a complete depth-first extension.
   - Every list member has a rotation containing point 1 (the list is invariant under x ↦ ζx).
-- **Validation at n = 16.** The exhaustive mode equals the reference's error sets on 9 configurations. The line mode, closed under rotation, equals them on 5 configurations, and every candidate was verified exactly.
+- **Validation at n = 16** (rerun into sr_planecount_validate.out). The exhaustive mode equals the reference's error sets on 9 configurations. The line mode, closed under rotation, equals them on 5 configurations, and every candidate was verified exactly.
 
 **Coverage at n = 64** (sr_planecount_coverage.py, exact).
 - A fixed error set B is caught by one seed with probability c = C(b−1, u−2)/C(63, u−2). Seeds per (l, b): N = ⌈4/c⌉.
@@ -43,7 +43,12 @@ So n* = 64, with admissible l ∈ {41, 42, 43}. Everything below is at n* = 64, 
 
 Total: 601,552,589 seeds in 18 jobs; PRNG xoshiro256** with seeds 1001–1018. This is a randomised search, not an exhaustive one.
 
-**Result.** RESULT_PLACEHOLDER
+**Result.**
+- 0 candidates at every (l, b) in the table, across all 18 jobs and about 10.2 CPU hours. No word of the full list was found at n = 64 for l = 41, 42 or 43.
+- Positive control at n = 64, to show that the search finds a member when one exists. The control is outside the statement's range: k = 40, l = 50, b = 16, 200,000 seeds.
+  - The error set μ₁₆ has locator X^16 − 1, so its coefficient gap holds automatically.
+  - The search found exactly that set, in 16 of the 200,000 seeds (about 15 expected).
+  - The exact check confirms deg P = 34, agreement 48 and the exact error set.
 
 This agrees with the author's own n = 64 sample in the post: 96 seeds per m ∈ {41, 42, 43}, 0 mixed words. It also agrees with the author's exact counts at n = 16 and 32.
 

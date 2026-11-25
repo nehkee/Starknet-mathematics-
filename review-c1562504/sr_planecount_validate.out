@@ -1,0 +1,19 @@
+compare n=16 k=4 l=11 b=10: reference 56 sets, search 56 sets, equal: True
+compare n=16 k=4 l=9 b=10: reference 56 sets, search 56 sets, equal: True
+compare n=16 k=6 l=10 b=8: reference 10 sets, search 10 sets, equal: True
+compare n=16 k=6 l=10 b=9: reference 80 sets, search 80 sets, equal: True
+compare n=16 k=6 l=12 b=8: reference 6 sets, search 6 sets, equal: True
+compare n=16 k=6 l=13 b=9: reference 80 sets, search 80 sets, equal: True
+compare n=16 k=6 l=8 b=8: reference 6 sets, search 6 sets, equal: True
+compare n=16 k=6 l=8 b=9: reference 80 sets, search 80 sets, equal: True
+compare n=16 k=8 l=12 b=7: reference 0 sets, search 0 sets, equal: True
+compare n=16 k=4 l=11 b=10: reference 56 sets, search 56 sets, equal: True
+verify n=16 k=4 l=11 b=10: 35 candidates, invalid 0
+compare n=16 k=4 l=9 b=10: reference 56 sets, search 56 sets, equal: True
+verify n=16 k=4 l=9 b=10: 35 candidates, invalid 0
+compare n=16 k=6 l=10 b=8: reference 10 sets, search 10 sets, equal: True
+verify n=16 k=6 l=10 b=8: 5 candidates, invalid 0
+compare n=16 k=6 l=13 b=9: reference 80 sets, search 80 sets, equal: True
+verify n=16 k=6 l=13 b=9: 45 candidates, invalid 0
+compare n=16 k=6 l=8 b=9: reference 80 sets, search 80 sets, equal: True
+verify n=16 k=6 l=8 b=9: 45 candidates, invalid 0

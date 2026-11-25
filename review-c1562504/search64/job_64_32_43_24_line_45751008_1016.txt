@@ -1,0 +1,2 @@
+summary n=64 k=32 l=43 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2864 s
