@@ -1,0 +1,12 @@
+n=64 q=8 k=32: admissible l with 5q < l and 2(l+1)+q <= 12q: [41, 42, 43]
+counting bound C(n,4q)/C(5q,4q) = 1548937742366/65  vs  2^20*n = 67108864
+l=41 b=23 u=14 seed points=13 per-seed catch c=2.4233e-07 seeds N=16506246 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=41 b=24 u=16 seed points=15 per-seed catch c=2.1857e-08 seeds N=183004029 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=42 b=22 u=12 seed points=11 per-seed catch c=2.7598e-06 seeds N=1449388 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=42 b=23 u=14 seed points=13 per-seed catch c=2.4233e-07 seeds N=16506246 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=42 b=24 u=16 seed points=15 per-seed catch c=2.1857e-08 seeds N=183004029 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=43 b=21 u=10 seed points=9 per-seed catch c=3.2526e-05 seeds N=122979 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=43 b=22 u=12 seed points=11 per-seed catch c=2.7598e-06 seeds N=1449388 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=43 b=23 u=14 seed points=13 per-seed catch c=2.4233e-07 seeds N=16506246 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=43 b=24 u=16 seed points=15 per-seed catch c=2.1857e-08 seeds N=183004029 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+total seeds 601552580
