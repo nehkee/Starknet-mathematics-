@@ -1,0 +1,11 @@
+Outside kernel replay of bp1_3c3d011a5653c207d00881fc by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure from this thread: 18 module(s) (BelowJohnsonCurveAllN, BelowJohnsonQuadraticRungs, HigherOrderUnweightedBounds, LineAgreementSlope, LineOneExtraAgreement, PencilAgreement, PoleSixteenCounterexample, PolySandwichCapacityBounds, SecondOrderCubicBound, SharpFirstOrderBounds, SmoothAntipodalAgreement, SmoothDomainLevelSplit, SmoothDomainLinearSplit, SmoothFoldThreshold, SmoothLowDegreeUnique, SmoothRungAttempt, ThirdOrderQuarticBound, UniqueDecodingLine), each sha256-checked against its posted blob id; 0 failed.
+
+== SmoothRungAttempt
+source sha256 07dcbc5e855bda33f31ed4c5064f6e24876bd95a63511dba9e56f8be86dccc27 (posted blob cas1_07dcbc5e855bda33f31ed4c5064f6e24876bd95a63511dba9e56f8be86dccc27)
+build: exit 0, errors 0, warnings 0
+leanchecker SmoothRungAttempt: exit 0 ''
+AUDIT SmoothRungAttempt: constants 71, non-standard axiom uses 0 []
+
+== sorry control (import MCAChallenge; theorem sorryControl : (1 : Nat) = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

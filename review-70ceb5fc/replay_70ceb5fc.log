@@ -1,0 +1,11 @@
+Outside kernel replay of bp1_70ceb5fcd25991d10612b8bf by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure from this thread: 1 module(s) (PoleLineList), each sha256-checked against its posted blob id; 0 failed.
+
+== PoleLineList
+source sha256 a0c30e306c2ec62b141bf876f6fd8e79c98f115dce315ee0d482f9cb5a5dff31 (posted blob cas1_a0c30e306c2ec62b141bf876f6fd8e79c98f115dce315ee0d482f9cb5a5dff31)
+build: exit 0, errors 0, warnings 0
+leanchecker PoleLineList: exit 0 ''
+AUDIT PoleLineList: constants 20, non-standard axiom uses 0 []
+
+== sorry control (import MCAChallenge; theorem sorryControl : (1 : Nat) = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]

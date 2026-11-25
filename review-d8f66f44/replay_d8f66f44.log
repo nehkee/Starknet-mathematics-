@@ -1,0 +1,39 @@
+Outside kernel replay of bp1_d8f66f4413fb87f0e56fa6ea by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 556 modules. 194 posted modules, each resolved to its newest posted blob and sha256-checked against its blob id, plus 412 generated modules made by the author's generators (see below). Built in dependency order: 556 built, 0 failed.
+Generated modules: generate_native_mass_cases.py (0984dd9c…), generate_native_mass_bridge.py (9d598e01…) and generate_native_mass_corrections.py (b5fe2992…), each equal to its posted blob, were read first and run with python3 -I inside sandboxed.sh. All 412 outputs match the author's manifests native_mass_generated.sha256 (206f200a…), native_mass_bridge_generated.sha256 (fd2124fc…) and native_mass_correction_generated.sha256 (b24194d0…): 412 OK, 0 mismatched. The generated files were scanned like every other file before compiling.
+Resources: a first pass with two parallel workers lost 26 generated modules to our container's memory limit (out-of-memory kill, empty logs). A second pass with one worker built them all; these are our environment's limits, not errors in the files.
+
+== InteriorThree_NativeMassClosed
+source sha256 ad9d74c94a0afc491cc30d92d2bc08ff0f4aa9c4b3a739a3f0ab3cfa22e23a5e (posted blob cas1_ad9d74c94a0afc491cc30d92d2bc08ff0f4aa9c4b3a739a3f0ab3cfa22e23a5e)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_NativeMassClosed: exit 0 ''
+AUDIT InteriorThree_NativeMassClosed: constants 4, non-standard axiom uses 0 []
+
+== InteriorThree_NativeMassWiring
+source sha256 c39d3d7af8972f061118ff4c77d6d6f9fa17c6f0a21c9894b5c1e25315cbd0e1 (posted blob cas1_c39d3d7af8972f061118ff4c77d6d6f9fa17c6f0a21c9894b5c1e25315cbd0e1)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_NativeMassWiring: exit 0 ''
+AUDIT InteriorThree_NativeMassWiring: constants 11, non-standard axiom uses 0 []
+
+== InteriorThree_NativeMassSound
+source sha256 d50e399baffb059c0d90bdaf5ac7b0ff45b7784d7467922f2173fbb8f55fec61 (posted blob cas1_d50e399baffb059c0d90bdaf5ac7b0ff45b7784d7467922f2173fbb8f55fec61)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_NativeMassSound: exit 0 ''
+AUDIT InteriorThree_NativeMassSound: constants 32, non-standard axiom uses 0 []
+
+== InteriorThree_NativeMassSelection
+source sha256 07fb977e9e3b9ab8462da91a0387109238fc278f4b2ccf4bb50fd9df600cef37 (posted blob cas1_07fb977e9e3b9ab8462da91a0387109238fc278f4b2ccf4bb50fd9df600cef37)
+build: exit 0, errors 0, warnings 1
+leanchecker InteriorThree_NativeMassSelection: exit 0 ''
+AUDIT InteriorThree_NativeMassSelection: constants 24, non-standard axiom uses 0 []
+
+== InteriorThree_NativeMassPairWitness
+source sha256 7671e451405a9d7a5263c9314e67601ded5908a8840f9628ba52482571b01514 (posted blob cas1_7671e451405a9d7a5263c9314e67601ded5908a8840f9628ba52482571b01514)
+build: exit 0, errors 0, warnings 0
+leanchecker InteriorThree_NativeMassPairWitness: exit 0 ''
+AUDIT InteriorThree_NativeMassPairWitness: constants 39, non-standard axiom uses 0 []
+
+== sorry control (import MCAChallenge; theorem sorryControl : (1 : Nat) = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]
+
+== generated modules (412), sha256 against the author's manifests: 412 OK

@@ -1,0 +1,12 @@
+Outside kernel replay of bp1_8328f1bf3944498c8d5f0a7e by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure from this thread: 18 module(s) (BelowJohnsonCurveAllN, BelowJohnsonQuadraticRungs, HigherOrderUnweightedBounds, LineAgreementSlope, LineOneExtraAgreement, PencilAgreement, PoleSixteenCounterexample, PolySandwichCapacityBounds, SecondOrderCubicBound, SharpFirstOrderBounds, SmoothAntipodalAgreement, SmoothDomainLevelSplit, SmoothDomainLinearSplit, SmoothFoldThreshold, SmoothLowDegreeUnique, SmoothRungAttempt, ThirdOrderQuarticBound, UniqueDecodingLine), each sha256-checked against its posted blob id; 0 failed.
+Note: this file imports ArkLib.Data.CodingTheory.ProximityGap.BCIKS20.AffineLines.JointAgreement, which the pinned MCAChallenge target does not build. We built that module from the pinned ArkLib (35ddcaa8) with `lake build` (offline), then compiled this file.
+
+== UniqueDecodingLine
+source sha256 b5cb64b8a00daef9e6a4cb9d35d19dbfdbe3126338c7006e1d158bfadb4f43f9 (posted blob cas1_b5cb64b8a00daef9e6a4cb9d35d19dbfdbe3126338c7006e1d158bfadb4f43f9)
+build: exit 0, errors 0, warnings 3
+leanchecker UniqueDecodingLine: exit 0 ''
+AUDIT UniqueDecodingLine: constants 22, non-standard axiom uses 0 []
+
+== sorry control (import MCAChallenge; theorem sorryControl : (1 : Nat) = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]
