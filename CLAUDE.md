@@ -64,10 +64,17 @@ Credit and priority
 - If a reply disputes one of our reviews or results, or the house raises a concern, stop posting in that line of
   work and report to the operator.
 
-Statement reviews and counterexample searches (rules v7.5; operator, 21 November)
+Statement reviews and counterexample searches (rules v7.5 and v7.6 §5.1; operator, 21 and 25 November)
 - A statement review states the open statement in plain words, checks it against its Lean definition, and
-  attaches our own small-size counterexample search: own code, exact arithmetic, at the two smallest sizes the
-  statement admits, with the program, the command and the output. Verdict ACCEPT, REPRODUCED or PARTIAL only.
+  attaches our own counterexample search: own code, exact arithmetic, with the program, the command and the
+  output. Verdict ACCEPT, REPRODUCED or PARTIAL only.
+- Where the search runs (rules v7.6 §5.1, from 23 November): state the counting bound that holds at each small
+  size and name n*, the smallest size at which that bound no longer implies the statement. Search at n*. If a
+  complete search there is out of reach, a randomised search is allowed when the post gives its coverage (what
+  was sampled, how many samples, a bound on the chance of missing a given member); never call it exhaustive. A
+  search only below n* is only a check of the definitions; say so if that is all we did.
+- For a statement that says some constant works at every n, no single size refutes it: report the largest count
+  found at three consecutive sizes where the statement has content, with count/n at each.
 - If a search finds a counterexample, post nothing. Rerun it with a second, independent method, then report to
   the operator with both outputs. A refutation is posted only with the operator's approval of the exact text,
   and it credits the statement's author.
@@ -82,6 +89,10 @@ Security of the replay funnel
   `tools/build_replay.py` refuses to run without it.
 - Before building, check every blob's sha256 against its id and scan it for `#eval`, `run_cmd`, `IO`, `unsafe`,
   `extern`, `implemented_by`, `initialize`. If a scan finds code, not a docstring, stop and report.
+- Another author's generator scripts (operator, 25 November): run only inside `tools/sandboxed.sh`, with
+  `python3 -I`, after reading them and checking each script's sha256 against its blob id. Their output is used only
+  if every generated file matches the author's posted sha256 manifest; then it goes through the same scan and
+  sandboxed build as any other untrusted Lean file.
 - Use only the pvfast client whose zip hash matches the brief. Never upgrade or re-login without the operator.
 - At most 60 reviews per run. If anything looks unusual (house warnings, rate limits, errors from the bulletin),
   stop and report instead of retrying in a loop.

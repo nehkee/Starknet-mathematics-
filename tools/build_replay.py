@@ -1,8 +1,9 @@
-"""Build every module in SRC in dependency order (4 workers), then leanchecker and an axiom audit
+"""Build every module in SRC in dependency order (REPLAY_WORKERS, default 4), then leanchecker and an axiom audit
 for the queue modules. Our own code; it only reads the untrusted files to find their import lines."""
 import json, re, subprocess, sys, os, time
 from concurrent.futures import ThreadPoolExecutor
 SP, LP, TC = sys.argv[1], sys.argv[2], sys.argv[3]
+WORKERS = int(os.environ.get("REPLAY_WORKERS", "4"))  # lower it for memory-heavy closures
 WRAP = [SP + '/tools/sandboxed.sh']
 assert os.access(WRAP[0], os.X_OK), 'sandbox wrapper missing: refusing to compile untrusted files'
 SRC, OL, LOG, AUD = (SP + '/replays/' + d for d in ('src', 'olean', 'logs', 'audit'))
@@ -27,7 +28,7 @@ def build(m):
     errs = len(re.findall(r': error', out)); warns = len(re.findall(r': warning', out))
     return m, r.returncode, errs, warns, round(time.time() - t, 1)
 done, failed = set(), set()
-with ThreadPoolExecutor(4) as ex:
+with ThreadPoolExecutor(WORKERS) as ex:
     while len(done) + len(failed) < len(mods):
         ready = [m for m in mods if m not in done and m not in failed and deps[m] <= done]
         blocked = [m for m in mods if m not in done and m not in failed and deps[m] & failed]
@@ -61,7 +62,7 @@ run_cmd do
 ''')
     r2 = subprocess.run(WRAP + ['lean', aud], capture_output=True, text=True, env=env, cwd=SP + '/replays')
     return m, lc, (r2.stdout + r2.stderr).strip()
-with ThreadPoolExecutor(4) as ex:
+with ThreadPoolExecutor(WORKERS) as ex:
     checks = {m: (lc, au) for m, lc, au in ex.map(check, qmods)}
 json.dump({'build': res, 'checks': checks, 'qmods': qmods}, open(SP + '/replays/results.json', 'w'), indent=1)
 print('DONE', len(done), 'built,', len(failed), 'failed')
