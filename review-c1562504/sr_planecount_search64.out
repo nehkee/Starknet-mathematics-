@@ -1,0 +1,60 @@
+== job_64_32_41_23_line_16506246_1001.txt
+summary n=64 k=32 l=41 b=23 u=14 seeds=16506246 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 840 s
+== job_64_32_41_24_line_45751008_1002.txt
+summary n=64 k=32 l=41 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2869 s
+== job_64_32_41_24_line_45751008_1003.txt
+summary n=64 k=32 l=41 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2843 s
+== job_64_32_41_24_line_45751008_1004.txt
+summary n=64 k=32 l=41 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2846 s
+== job_64_32_41_24_line_45751008_1005.txt
+summary n=64 k=32 l=41 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2864 s
+== job_64_32_42_22_line_1449388_1006.txt
+summary n=64 k=32 l=42 b=22 u=12 seeds=1449388 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 63 s
+== job_64_32_42_23_line_16506246_1007.txt
+summary n=64 k=32 l=42 b=23 u=14 seeds=16506246 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 856 s
+== job_64_32_42_24_line_45751008_1008.txt
+summary n=64 k=32 l=42 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2822 s
+== job_64_32_42_24_line_45751008_1009.txt
+summary n=64 k=32 l=42 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2825 s
+== job_64_32_42_24_line_45751008_1010.txt
+summary n=64 k=32 l=42 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2820 s
+== job_64_32_42_24_line_45751008_1011.txt
+summary n=64 k=32 l=42 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2832 s
+== job_64_32_43_21_line_122979_1012.txt
+summary n=64 k=32 l=43 b=21 u=10 seeds=122979 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 4 s
+== job_64_32_43_22_line_1449388_1013.txt
+summary n=64 k=32 l=43 b=22 u=12 seeds=1449388 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 65 s
+== job_64_32_43_23_line_16506246_1014.txt
+summary n=64 k=32 l=43 b=23 u=14 seeds=16506246 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 850 s
+== job_64_32_43_24_line_45751008_1015.txt
+summary n=64 k=32 l=43 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2894 s
+== job_64_32_43_24_line_45751008_1016.txt
+summary n=64 k=32 l=43 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2864 s
+== job_64_32_43_24_line_45751008_1017.txt
+summary n=64 k=32 l=43 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2859 s
+== job_64_32_43_24_line_45751008_1018.txt
+summary n=64 k=32 l=43 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2851 s
+== ctl_64_40_50_16.txt
+candidate 1111111111111111
+summary n=64 k=40 l=50 b=16 u=8 seeds=200000 singular=0 dfs_nodes=0 unique_solutions=16 candidates=1
+== ctl_verify.out
+mask 1111111111111111: deg P = 34, agreement 48, exact error set: True, valid: True
+verify n=64 k=40 l=50 b=16: 1 candidates, invalid 0

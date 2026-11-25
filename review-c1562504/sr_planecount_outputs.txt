@@ -1,0 +1,105 @@
+=== sr_planecount_ref.out (sha256 1fd5b31a0bf7611a1aac05d0654c9be62a29116f48a594c2812aba280904559f)
+p = 2^31-1, F_(p^2) = F_p[i]/(i^2+1), generator of mu_(2^31): (1 + 2 i)^(p-1)
+n=16 k=8 l=10 agreement>=10: brute force 0 words, gap reduction 0 words (8008 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=8 l=11 agreement>=10: brute force 0 words, gap reduction 0 words (12376 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=8 l=12 agreement>=9: brute force 0 words, gap reduction 0 words (25636 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=6 l=8 agreement>=7: brute force 38 words, gap reduction 38 words (24310 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=6 l=10 agreement>=7: brute force 10 words, gap reduction 10 words (43758 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=6 l=12 agreement>=8: brute force 6 words, gap reduction 6 words (38506 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=6 l=13 agreement>=7: brute force 38 words, gap reduction 38 words (50506 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=4 l=9 agreement>=5: brute force 2 words, gap reduction 2 words (48126 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+n=16 k=4 l=11 agreement>=6: brute force 2 words, gap reduction 2 words (56134 error sets tested, gap <=> deg(X^l mod L_A) < k on all), equal: True
+=== sr_planecount_validate.out (sha256 0f0cacd18d488e9e0f27dc129abcebf15736a032a50c6a2432012e270c4a74f2)
+compare n=16 k=4 l=11 b=10: reference 56 sets, search 56 sets, equal: True
+compare n=16 k=4 l=9 b=10: reference 56 sets, search 56 sets, equal: True
+compare n=16 k=6 l=10 b=8: reference 10 sets, search 10 sets, equal: True
+compare n=16 k=6 l=10 b=9: reference 80 sets, search 80 sets, equal: True
+compare n=16 k=6 l=12 b=8: reference 6 sets, search 6 sets, equal: True
+compare n=16 k=6 l=13 b=9: reference 80 sets, search 80 sets, equal: True
+compare n=16 k=6 l=8 b=8: reference 6 sets, search 6 sets, equal: True
+compare n=16 k=6 l=8 b=9: reference 80 sets, search 80 sets, equal: True
+compare n=16 k=8 l=12 b=7: reference 0 sets, search 0 sets, equal: True
+compare n=16 k=4 l=11 b=10: reference 56 sets, search 56 sets, equal: True
+verify n=16 k=4 l=11 b=10: 35 candidates, invalid 0
+compare n=16 k=4 l=9 b=10: reference 56 sets, search 56 sets, equal: True
+verify n=16 k=4 l=9 b=10: 35 candidates, invalid 0
+compare n=16 k=6 l=10 b=8: reference 10 sets, search 10 sets, equal: True
+verify n=16 k=6 l=10 b=8: 5 candidates, invalid 0
+compare n=16 k=6 l=13 b=9: reference 80 sets, search 80 sets, equal: True
+verify n=16 k=6 l=13 b=9: 45 candidates, invalid 0
+compare n=16 k=6 l=8 b=9: reference 80 sets, search 80 sets, equal: True
+verify n=16 k=6 l=8 b=9: 45 candidates, invalid 0
+=== sr_planecount_coverage.out (sha256 346a97377a86e05f54fc01ac0b0c34c69baf6e98424098a7688fa2401664b88d)
+n=64 q=8 k=32: admissible l with 5q < l and 2(l+1)+q <= 12q: [41, 42, 43]
+counting bound C(n,4q)/C(5q,4q) = 1548937742366/65  vs  2^20*n = 67108864
+l=41 b=23 u=14 seed points=13 per-seed catch c=2.4233e-07 seeds N=16506246 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=41 b=24 u=16 seed points=15 per-seed catch c=2.1857e-08 seeds N=183004029 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=42 b=22 u=12 seed points=11 per-seed catch c=2.7598e-06 seeds N=1449388 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=42 b=23 u=14 seed points=13 per-seed catch c=2.4233e-07 seeds N=16506246 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=42 b=24 u=16 seed points=15 per-seed catch c=2.1857e-08 seeds N=183004029 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=43 b=21 u=10 seed points=9 per-seed catch c=3.2526e-05 seeds N=122979 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=43 b=22 u=12 seed points=11 per-seed catch c=2.7598e-06 seeds N=1449388 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=43 b=23 u=14 seed points=13 per-seed catch c=2.4233e-07 seeds N=16506246 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+l=43 b=24 u=16 seed points=15 per-seed catch c=2.1857e-08 seeds N=183004029 cN >= 4 (exact): True, so miss <= (1-c)^N <= e^-cN <= e^-4 = 0.0183
+total seeds 601552580
+=== sr_planecount_search64.out (sha256 1eae49c1e4bc5ad3824f0c763e8c18d99cbc4ccd36a99cb0822749aaa0925cbc)
+== job_64_32_41_23_line_16506246_1001.txt
+summary n=64 k=32 l=41 b=23 u=14 seeds=16506246 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 840 s
+== job_64_32_41_24_line_45751008_1002.txt
+summary n=64 k=32 l=41 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2869 s
+== job_64_32_41_24_line_45751008_1003.txt
+summary n=64 k=32 l=41 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2843 s
+== job_64_32_41_24_line_45751008_1004.txt
+summary n=64 k=32 l=41 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2846 s
+== job_64_32_41_24_line_45751008_1005.txt
+summary n=64 k=32 l=41 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2864 s
+== job_64_32_42_22_line_1449388_1006.txt
+summary n=64 k=32 l=42 b=22 u=12 seeds=1449388 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 63 s
+== job_64_32_42_23_line_16506246_1007.txt
+summary n=64 k=32 l=42 b=23 u=14 seeds=16506246 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 856 s
+== job_64_32_42_24_line_45751008_1008.txt
+summary n=64 k=32 l=42 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2822 s
+== job_64_32_42_24_line_45751008_1009.txt
+summary n=64 k=32 l=42 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2825 s
+== job_64_32_42_24_line_45751008_1010.txt
+summary n=64 k=32 l=42 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2820 s
+== job_64_32_42_24_line_45751008_1011.txt
+summary n=64 k=32 l=42 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2832 s
+== job_64_32_43_21_line_122979_1012.txt
+summary n=64 k=32 l=43 b=21 u=10 seeds=122979 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 4 s
+== job_64_32_43_22_line_1449388_1013.txt
+summary n=64 k=32 l=43 b=22 u=12 seeds=1449388 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 65 s
+== job_64_32_43_23_line_16506246_1014.txt
+summary n=64 k=32 l=43 b=23 u=14 seeds=16506246 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 850 s
+== job_64_32_43_24_line_45751008_1015.txt
+summary n=64 k=32 l=43 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2894 s
+== job_64_32_43_24_line_45751008_1016.txt
+summary n=64 k=32 l=43 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2864 s
+== job_64_32_43_24_line_45751008_1017.txt
+summary n=64 k=32 l=43 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2859 s
+== job_64_32_43_24_line_45751008_1018.txt
+summary n=64 k=32 l=43 b=24 u=16 seeds=45751008 singular=0 dfs_nodes=0 unique_solutions=0 candidates=0
+elapsed 2851 s
+== ctl_64_40_50_16.txt
+candidate 1111111111111111
+summary n=64 k=40 l=50 b=16 u=8 seeds=200000 singular=0 dfs_nodes=0 unique_solutions=16 candidates=1
+== ctl_verify.out
+mask 1111111111111111: deg P = 34, agreement 48, exact error set: True, valid: True
+verify n=64 k=40 l=50 b=16: 1 candidates, invalid 0
