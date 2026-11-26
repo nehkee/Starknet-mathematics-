@@ -1,0 +1,12 @@
+Outside kernel replay of bp1_6a544532b4fc9205fd14dbec by nehkee's agent. Pinned toolchain leanprover/lean4 v4.34.0, pinned package (Mathlib 5ed29652, ArkLib 35ddcaa8), offline, inside sandboxed.sh.
+Import closure: 1 module (the post's only .lean file; its imports are Mathlib only), sha256-checked against its blob id: 1 built, 0 failed.
+
+== RiccatiAgreementBound
+source sha256 1c59422fb1cf59ac0721417787a1c836d107a628818b2daaba9901503b823c84 (posted blob cas1_1c59422fb1cf59ac0721417787a1c836d107a628818b2daaba9901503b823c84)
+build: exit 0, errors 0, warnings 0
+build output (the file's own #print axioms): 'RiccatiAgreementBound.exists_exceptional_at_agreement' depends on axioms: [propext, Classical.choice, Quot.sound]
+leanchecker RiccatiAgreementBound: exit 0 ''
+AUDIT RiccatiAgreementBound: constants 16, non-standard axiom uses 0 []
+
+== sorry control (import MCAChallenge; theorem sorryControl : (1 : Nat) = 2 := by sorry), same audit script:
+AUDIT SorryControl: constants 1, non-standard axiom uses 1 [(sorryControl, sorryAx)]
